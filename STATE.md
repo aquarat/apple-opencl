@@ -245,8 +245,11 @@ synchronisation points avoids it, and fix 1 makes that batching effective.
 
 ## Next
 
-* Run the Vulkan CTS subset (got-bringup) on a Honeykrisp built from this
-  branch before moving `local-deploy`, or restrict the unroll pass to OpenCL.
+* `local-deploy` was fast-forwarded to `51e56ca` on 2026-10-03, so it now
+  carries this work. got-bringup pins Honeykrisp by commit (`d105715`), so
+  its packages are unchanged; run its Vulkan CTS subset and a game check on
+  a Honeykrisp built from `51e56ca` before moving that pin (the unroll pass
+  and the BO cache cap reach Vulkan too).
 * Zero-copy map for write-back buffers.
 * Staged reads for arrays/3D/cubes; faster raw-integer staging blits.
 * Other machines in the fleet: M1 Pro (G13S), M1 Max (G13C), M1 Ultra (G13D).
