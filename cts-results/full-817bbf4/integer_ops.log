@@ -1,0 +1,505 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+long_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+long_math passed
+long_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+long_logic passed
+long_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+long_shift passed
+long_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+long_compare passed
+ulong_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+ulong_math passed
+ulong_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+ulong_logic passed
+ulong_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+ulong_shift passed
+ulong_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+ulong_compare passed
+int_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+int_math passed
+int_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+int_logic passed
+int_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+int_shift passed
+int_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+int_compare passed
+uint_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+uint_math passed
+uint_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+uint_logic passed
+uint_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+uint_shift passed
+uint_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+uint_compare passed
+short_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+short_math passed
+short_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+short_logic passed
+short_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+short_shift passed
+short_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+short_compare passed
+ushort_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+ushort_math passed
+ushort_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+ushort_logic passed
+ushort_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+ushort_shift passed
+ushort_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+ushort_compare passed
+char_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+char_math passed
+char_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+char_logic passed
+char_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+char_shift passed
+char_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+char_compare passed
+uchar_math...
+Testing "+" passed
+Testing "-" passed
+Testing "*" passed
+Testing "/" passed
+Testing "%" passed
+uchar_math passed
+uchar_logic...
+Testing "&" passed
+Testing "|" passed
+Testing "^" passed
+Testing "~" passed
+Testing "&&" passed
+Testing "||" passed
+Testing "!" passed
+uchar_logic passed
+uchar_shift...
+Testing ">> by vector" passed
+Testing "<< by vector" passed
+Testing ">> by scalar" passed
+Testing "<< by scalar" passed
+uchar_shift passed
+uchar_compare...
+Testing "?:" passed
+Testing "<" passed
+Testing ">" passed
+Testing "<=" passed
+Testing ">=" passed
+Testing "==" passed
+Testing "!=" passed
+uchar_compare passed
+vector_scalar...
+Testing "?:" on char2 (vector?scalar:vector inputs)
+Testing "?:" on char2 (vector?vector:scalar inputs)
+Testing "?:" on char2 (vector?scalar:scalar inputs)
+Testing "?:" on char2 (scalar?vector:vector inputs)
+Testing "?:" on char2 (scalar?scalar:vector inputs)
+Testing "?:" on char2 (scalar?vector:scalar inputs)
+Testing "?:" on char3 (vector?scalar:vector inputs)
+Testing "?:" on char3 (vector?vector:scalar inputs)
+Testing "?:" on char3 (vector?scalar:scalar inputs)
+Testing "?:" on char3 (scalar?vector:vector inputs)
+Testing "?:" on char3 (scalar?scalar:vector inputs)
+Testing "?:" on char3 (scalar?vector:scalar inputs)
+Testing "?:" on char4 (vector?scalar:vector inputs)
+Testing "?:" on char4 (vector?vector:scalar inputs)
+Testing "?:" on char4 (vector?scalar:scalar inputs)
+Testing "?:" on char4 (scalar?vector:vector inputs)
+Testing "?:" on char4 (scalar?scalar:vector inputs)
+Testing "?:" on char4 (scalar?vector:scalar inputs)
+Testing "?:" on char8 (vector?scalar:vector inputs)
+Testing "?:" on char8 (vector?vector:scalar inputs)
+Testing "?:" on char8 (vector?scalar:scalar inputs)
+Testing "?:" on char8 (scalar?vector:vector inputs)
+Testing "?:" on char8 (scalar?scalar:vector inputs)
+Testing "?:" on char8 (scalar?vector:scalar inputs)
+Testing "?:" on char16 (vector?scalar:vector inputs)
+Testing "?:" on char16 (vector?vector:scalar inputs)
+Testing "?:" on char16 (vector?scalar:scalar inputs)
+Testing "?:" on char16 (scalar?vector:vector inputs)
+Testing "?:" on char16 (scalar?scalar:vector inputs)
+Testing "?:" on char16 (scalar?vector:scalar inputs)
+vector_scalar passed
+integer_clz...
+integer_clz passed
+integer_ctz...
+integer_ctz passed
+integer_addAssign...
+integer_addAssign passed
+integer_subtractAssign...
+integer_subtractAssign passed
+integer_multiplyAssign...
+integer_multiplyAssign passed
+integer_exclusiveOrAssign...
+integer_exclusiveOrAssign passed
+integer_orAssign...
+integer_orAssign passed
+integer_andAssign...
+integer_andAssign passed
+integer_divideAssign...
+integer_divideAssign passed
+integer_moduloAssign...
+integer_moduloAssign passed
+integer_hadd...
+integer_hadd passed
+integer_rhadd...
+integer_rhadd passed
+integer_min...
+integer_min passed
+integer_max...
+integer_max passed
+integer_mul_hi...
+integer_mul_hi passed
+integer_rotate...
+integer_rotate passed
+integer_clamp...
+integer_clamp passed
+integer_mad_sat...
+integer_mad_sat passed
+integer_mad_hi...
+integer_mad_hi passed
+integer_upsample...
+running upsample test for char uchar vector size 1
+running upsample test for char uchar vector size 2
+running upsample test for char uchar vector size 3
+running upsample test for char uchar vector size 4
+running upsample test for char uchar vector size 8
+running upsample test for char uchar vector size 16
+running upsample test for uchar uchar vector size 1
+running upsample test for uchar uchar vector size 2
+running upsample test for uchar uchar vector size 3
+running upsample test for uchar uchar vector size 4
+running upsample test for uchar uchar vector size 8
+running upsample test for uchar uchar vector size 16
+running upsample test for short ushort vector size 1
+running upsample test for short ushort vector size 2
+running upsample test for short ushort vector size 3
+running upsample test for short ushort vector size 4
+running upsample test for short ushort vector size 8
+running upsample test for short ushort vector size 16
+running upsample test for ushort ushort vector size 1
+running upsample test for ushort ushort vector size 2
+running upsample test for ushort ushort vector size 3
+running upsample test for ushort ushort vector size 4
+running upsample test for ushort ushort vector size 8
+running upsample test for ushort ushort vector size 16
+running upsample test for int uint vector size 1
+running upsample test for int uint vector size 2
+running upsample test for int uint vector size 3
+running upsample test for int uint vector size 4
+running upsample test for int uint vector size 8
+running upsample test for int uint vector size 16
+running upsample test for uint uint vector size 1
+running upsample test for uint uint vector size 2
+running upsample test for uint uint vector size 3
+running upsample test for uint uint vector size 4
+running upsample test for uint uint vector size 8
+running upsample test for uint uint vector size 16
+integer_upsample passed
+integer_mul24...
+INT_MUL24 int test passed
+INT_MUL24 int2 test passed
+INT_MUL24 int3 test passed
+INT_MUL24 int4 test passed
+INT_MUL24 int8 test passed
+INT_MUL24 int16 test passed
+UINT_MUL24 uint test passed
+UINT_MUL24 uint2 test passed
+UINT_MUL24 uint3 test passed
+UINT_MUL24 uint4 test passed
+UINT_MUL24 uint8 test passed
+UINT_MUL24 uint16 test passed
+integer_mul24 passed
+integer_mad24...
+INT_MAD24 int test passed
+INT_MAD24 int2 test passed
+INT_MAD24 int3 test passed
+INT_MAD24 int4 test passed
+INT_MAD24 int8 test passed
+INT_MAD24 int16 test passed
+UINT_MAD24 uint test passed
+UINT_MAD24 uint2 test passed
+UINT_MAD24 uint3 test passed
+UINT_MAD24 uint4 test passed
+UINT_MAD24 uint8 test passed
+UINT_MAD24 uint16 test passed
+integer_mad24 passed
+integer_sub_sat...
+char......done
+uchar......done
+short......done
+ushort......done
+int......done
+uint......done
+long......done
+ulong......done
+integer_sub_sat passed
+integer_add_sat...
+char......done
+uchar......done
+short......done
+ushort......done
+int......done
+uint......done
+long......done
+ulong......done
+integer_add_sat passed
+integer_abs...
+char......done
+short......done
+int......done
+long......done
+uchar......done
+ushort......done
+uint......done
+ulong......done
+integer_abs passed
+integer_abs_diff...
+char......done
+uchar......done
+short......done
+ushort......done
+int......done
+uint......done
+long......done
+ulong......done
+integer_abs_diff passed
+unary_ops_full...
+unary_ops_full passed
+unary_ops_increment...
+unary_ops_increment passed
+unary_ops_decrement...
+unary_ops_decrement passed
+popcount...
+char......done
+uchar......done
+short......done
+ushort......done
+int......done
+uint......done
+long......done
+ulong......done
+popcount passed
+integer_dot_product...
+    testing unsigned = dot(unsigned, unsigned)
+    testing signed = dot(signed, signed)
+    testing signed = dot(unsigned, signed)
+    testing signed = dot(signed, unsigned)
+    testing unsigned = dot_acc_sat(unsigned, unsigned)
+    testing signed = dot_acc_sat(signed, signed)
+    testing signed = dot_acc_sat(unsigned, signed)
+    testing signed = dot_acc_sat(signed, unsigned)
+    testing unsigned = dot_packed(unsigned, unsigned)
+    testing signed = dot_packed(signed, signed)
+    testing signed = dot_packed(unsigned, signed)
+    testing signed = dot_packed(signed, unsigned)
+    testing unsigned = dot_acc_sat_packed(unsigned, unsigned)
+    testing signed = dot_acc_sat_packed(signed, signed)
+    testing signed = dot_acc_sat_packed(unsigned, signed)
+    testing signed = dot_acc_sat_packed(signed, unsigned)
+integer_dot_product passed
+extended_bit_ops_extract...
+    testing type char
+    testing type uchar
+    testing type short
+    testing type ushort
+    testing type int
+    testing type uint
+    testing type long
+    testing type ulong
+extended_bit_ops_extract passed
+extended_bit_ops_insert...
+    testing type char
+    testing type uchar
+    testing type short
+    testing type ushort
+    testing type int
+    testing type uint
+    testing type long
+    testing type ulong
+extended_bit_ops_insert passed
+extended_bit_ops_reverse...
+    testing type char
+    testing type uchar
+    testing type short
+    testing type ushort
+    testing type int
+    testing type uint
+    testing type long
+    testing type ulong
+extended_bit_ops_reverse passed
+PASSED 67 of 67 tests.
+ThreadPool: thread 3 exiting.
+ThreadPool: thread 2 exiting.
+ThreadPool: thread 5 exiting.
+ThreadPool: thread 6 exiting.
+ThreadPool: thread 0 exiting.
+ThreadPool: thread 7 exiting.
+ThreadPool: thread 1 exiting.
+ThreadPool: thread 4 exiting.
+Thread pool exited in a orderly fashion.

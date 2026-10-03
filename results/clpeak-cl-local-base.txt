@@ -1,0 +1,96 @@
+Backend: OpenCL
+  Platform 0: rusticl
+    Device 0: Apple M1 (G13G B1)
+      Driver version   : 26.3.0-devel (git-d105715f01)
+      Compute units    : 8
+      Clock frequency  : 1278 MHz
+
+      Single-precision compute (GFLOPS)
+        float    : 2249.69
+        float2   : 2364.57
+        float4   : 2556.30
+        float8   : 2482.87
+        float16  : 2489.29
+
+      Half-precision compute (GFLOPS)
+        half     : 2259.78
+        half2    : 2388.72
+        half4    : 2580.21
+        half8    : 2432.21
+        half16   : 2466.63
+
+      Double-precision compute (GFLOPS)
+        [unsupported] No double precision support
+
+      Mixed-precision compute fp16xfp16+fp32 (GFLOPS)
+        mp       : 551.20
+        mp2      : 951.58
+        mp4      : 1216.00
+        mp8      : 55715.89
+        mp16     : 55321.89
+
+      Integer compute (GOPS)
+        int      : 649.11
+        int2     : 648.47
+        int4     : 653.80
+        int8     : 649.63
+        int16    : 660.15
+
+      Integer compute Fast 24bit (GOPS)
+        int      : 649.04
+        int2     : 648.48
+        int4     : 653.66
+        int8     : 651.68
+        int16    : 661.28
+
+      Integer char (8bit) compute (GOPS)
+        char     : 519.42
+        char2    : 545.36
+        char4    : 652.39
+        char8    : 651.67
+        char16   : 658.13
+
+      Integer short (16bit) compute (GOPS)
+        short    : 649.77
+        short2   : 649.19
+        short4   : 653.61
+        short8   : 656.08
+        short16  : 659.13
+
+      INT8 dot-product compute (GOPS)
+        int8_dp   : 2683.87
+        int8_dp2  : 4395.15
+        int8_dp4  : 6145.80
+        int8_dp8  : 7097.91
+        int8_dp16 : 8636.02
+
+      Global memory bandwidth (GBPS)
+        float    : 56.56
+        float2   : 58.88
+        float4   : 58.95
+        float8   : 61.59
+        float16  : 64.17
+
+      Local memory bandwidth (GBPS)
+        float    : 887.31
+        float2   : 915.17
+        float4   : 1194.03
+        float8   : 783.97
+
+      Image memory bandwidth (GBPS)
+        float4   : 45.22
+
+      Transfer bandwidth (GBPS)
+        enqueuewritebuffer             : 28.28
+        enqueuereadbuffer              : 28.53
+        enqueuewritebuffer_nonblocking : 26.52
+        enqueuereadbuffer_nonblocking  : 28.68
+        enqueuemapbuffer               : 12.91
+          memcpy_from_mapped_ptr       : 27.62
+        enqueueunmap                   : 23.81
+          memcpy_to_mapped_ptr         : 19.93
+
+      Kernel launch latency (US)
+        dispatch  : 24.39
+        roundtrip : 263.15
+

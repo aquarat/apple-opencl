@@ -1,0 +1,33 @@
+label=full-817bbf4 driver=local ASAHI_PERFTEST= date=2026-10-03T10:15:28+01:00
+mesa=817bbf4
+api                                rc=0       6s  PASSED 152 of 152 tests.
+basic                              rc=1     310s  FAILED 1 of 108 tests.
+buffers                            rc=0      11s  PASSED 102 of 102 tests.
+events                             rc=0       7s  PASSED 30 of 30 tests.
+atomics                            rc=0       1s  PASSED 13 of 13 tests.
+c11_atomics                        rc=0       4s  PASSED 33 of 33 tests.
+profiling                          rc=0       1s  PASSED 33 of 33 tests.
+mem_host_flags                     rc=0       0s  PASSED 9 of 9 tests.
+multiple_device_context            rc=0       4s  PASSED 7 of 7 tests.
+non_uniform_work_group             rc=0       1s  no summary line
+printf                             rc=1       2s  FAILED 1 of 20 tests.
+select                             rc=0       2s  PASSED 22 of 22 tests.
+relationals                        rc=0      55s  PASSED 17 of 17 tests.
+geometrics                         rc=0       2s  PASSED 8 of 8 tests.
+commonfns                          rc=1       3s  FAILED 1 of 19 tests.
+vectors                            rc=0       6s  PASSED 9 of 9 tests.
+half                               rc=0      35s  PASSED 13 of 13 tests.
+subgroups                          rc=0       7s  PASSED 12 of 12 tests.
+computeinfo                        rc=0       0s  PASSED 4 of 4 tests.
+device_timer                       rc=0       5s  PASSED 2 of 2 tests.
+compiler                           rc=0      16s  PASSED 75 of 75 tests.
+integer_ops                        rc=0     276s  PASSED 67 of 67 tests.
+images/clCopyImage                 rc=0    1240s  PASSED 14 of 14 tests.
+images/clFillImage                 rc=0     150s  PASSED 6 of 6 tests.
+images/clGetInfo                   rc=0      67s  PASSED 6 of 6 tests.
+images/clReadWriteImage            rc=0     119s  PASSED 6 of 6 tests.
+images/kernel_image_methods        rc=0      22s  PASSED 6 of 6 tests.
+images/kernel_read_write:-w        rc=1     829s  FAILED 4 of 5 tests.
+math_brute_force:-w                rc=0      51s  PASSED 106 of 106 tests.
+conversions:-w                     rc=0      48s  PASSED test.
+gpu faults/timeouts during run: 0

@@ -1,0 +1,3 @@
+label=system-26.1.8 driver=system ASAHI_PERFTEST= date=2026-10-03T11:10:52+01:00
+images/kernel_read_write:-w        rc=1     871s  FAILED 4 of 5 tests.
+gpu faults/timeouts during run: 0

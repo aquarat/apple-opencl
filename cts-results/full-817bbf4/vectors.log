@@ -1,0 +1,46 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+step_type...
+Not testing doubles (unsupported on this device)
+step_type passed
+step_var...
+Not testing doubles (unsupported on this device)
+step_var passed
+step_typedef_type...
+Not testing doubles (unsupported on this device)
+step_typedef_type passed
+step_typedef_var...
+Not testing doubles (unsupported on this device)
+step_typedef_var passed
+vec_align_array...
+Testing global
+vec_align_array passed
+vec_align_struct...
+testing __private
+testing __local
+vec_align_struct passed
+vec_align_packed_struct...
+Testing __private
+testing __local
+vec_align_packed_struct passed
+vec_align_struct_arr...
+testing __global
+vec_align_struct_arr passed
+vec_align_packed_struct_arr...
+Testing __global
+vec_align_packed_struct_arr passed
+PASSED 9 of 9 tests.
+ThreadPool: thread 3 exiting.
+ThreadPool: thread 0 exiting.
+ThreadPool: thread 5 exiting.
+ThreadPool: thread 6 exiting.
+ThreadPool: thread 4 exiting.
+ThreadPool: thread 7 exiting.
+ThreadPool: thread 1 exiting.
+ThreadPool: thread 2 exiting.
+Thread pool exited in a orderly fashion.

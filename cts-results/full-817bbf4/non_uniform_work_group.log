@@ -1,0 +1,7 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)

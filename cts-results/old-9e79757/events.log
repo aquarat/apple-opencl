@@ -1,0 +1,614 @@
+=== Rusticl warning: Patched Mesa libclc not detected. Upstream libclc may contain known bugs or breaking changes and isn't guaranteed to work reliably. Please visit https://gitlab.freedesktop.org/karolherbst/mesa-libclc for more information. ===
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+event_get_execute_status...
+event_get_execute_status passed
+event_get_info...
+event_get_info passed
+event_get_write_array_status...
+event_get_write_array_status passed
+event_get_read_array_status...
+event_get_read_array_status passed
+event_wait_for_execute...
+event_wait_for_execute passed
+event_wait_for_array...
+event_wait_for_array passed
+event_flush...
+event_flush passed
+event_finish_execute...
+event_finish_execute passed
+event_finish_array...
+event_finish_array passed
+event_release_before_done...
+Note: Event status was running or queued when released, so test was good.
+event_release_before_done passed
+event_enqueue_marker...
+event_enqueue_marker passed
+event_enqueue_marker_with_event_list...
+event_enqueue_marker_with_event_list passed
+event_enqueue_barrier_with_event_list...
+event_enqueue_barrier_with_event_list passed
+out_of_order_event_waitlist_single_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+WARNING: could not detect any out-of-order execution without using waitlists, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with waitlist-based depenednecies between kernels.
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_waitlist_single_queue passed
+out_of_order_event_waitlist_multi_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+	values[0] = -37, expected 1 (If only queue 1 accessed memory: -37 only queue 2 accessed memory: 2)
+Detected incorrect execution (possibly out-of-order) without waitlists. Test can be a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with waitlist-based depenednecies between kernels.
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_waitlist_multi_queue passed
+out_of_order_event_waitlist_multi_queue_multi_device...
+Running test for baseline results to determine if out-of-order execution can be detected...
+Failed to obtain two devices. Test can not run.
+WARNING: could not detect any out-of-order execution without using waitlists, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with waitlist-based depenednecies between kernels.
+Failed to obtain two devices. Test can not run.
+out_of_order_event_waitlist_multi_queue_multi_device passed
+out_of_order_event_enqueue_wait_for_events_single_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+WARNING: could not detect any out-of-order execution without using clEnqueueBarrierWithWaitList, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueBarrierWithWaitList as barrier function.
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_enqueue_wait_for_events_single_queue passed
+out_of_order_event_enqueue_wait_for_events_multi_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+	values[0] = -257, expected 1 (If only queue 1 accessed memory: -2 only queue 2 accessed memory: 255)
+Detected incorrect execution (possibly out-of-order) without clEnqueueBarrierWithWaitList. Test can be a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueBarrierWithWaitList as barrier function.
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_enqueue_wait_for_events_multi_queue passed
+out_of_order_event_enqueue_wait_for_events_multi_queue_multi_device...
+Running test for baseline results to determine if out-of-order execution can be detected...
+Failed to obtain two devices. Test can not run.
+WARNING: could not detect any out-of-order execution without using clEnqueueBarrierWithWaitList, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueBarrierWithWaitList as barrier function.
+Failed to obtain two devices. Test can not run.
+out_of_order_event_enqueue_wait_for_events_multi_queue_multi_device passed
+out_of_order_event_enqueue_barrier_single_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+WARNING: could not detect any out-of-order execution without using clEnqueueBarrierWithWaitList, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueBarrierWithWaitList as barrier function.
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_enqueue_barrier_single_queue passed
+out_of_order_event_enqueue_marker_single_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+WARNING: could not detect any out-of-order execution without using clEnqueueMarker, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueMarker as a barrier function.
+	Testing with one device.
+	Testing with one queue.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_enqueue_marker_single_queue passed
+out_of_order_event_enqueue_marker_multi_queue...
+Running test for baseline results to determine if out-of-order execution can be detected...
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+	values[0] = -437, expected 1 (If only queue 1 accessed memory: -53 only queue 2 accessed memory: -2)
+Detected incorrect execution (possibly out-of-order) without clEnqueueMarker. Test can be a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueMarker as a barrier function.
+	Testing with one device.
+	Testing with two queues.
+Queues chosen randomly for each kernel execution.
+out_of_order_event_enqueue_marker_multi_queue passed
+out_of_order_event_enqueue_marker_multi_queue_multi_device...
+Running test for baseline results to determine if out-of-order execution can be detected...
+Failed to obtain two devices. Test can not run.
+WARNING: could not detect any out-of-order execution without using clEnqueueMarker, so this test is not a valid test of out-of-order event dependencies.
+Running test for actual results...
+	Testing with clEnqueueMarker as a barrier function.
+Failed to obtain two devices. Test can not run.
+out_of_order_event_enqueue_marker_multi_queue_multi_device passed
+waitlists...
+
+-- Testing NDRangeKernel (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing NDRangeKernel (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing MapBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing MapBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing UnmapBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing UnmapBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Buffer size: 51.2MB
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadImage2D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadImage2D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteImage2D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteImage2D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage2Dto2D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage2Dto2D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing Copy2DImageToBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing Copy2DImageToBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyBufferTo2DImage (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyBufferTo2DImage (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing MapImage (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing MapImage (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 2048 x 2048 (16MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadImage3D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing ReadImage3D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteImage3D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing WriteImage3D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage2Dto3D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage2Dto3D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage3Dto2D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage3Dto2D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage3Dto3D (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyImage3Dto3D (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing Copy3DImageToBuffer (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing Copy3DImageToBuffer (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyBufferTo3DImage (waiting on 1 event)...
+	Executing reference event 0, then test event 2 with reference event 0 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: N/A, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: N/A, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+-- Testing CopyBufferTo3DImage (waiting on 2 events)...
+	Executing reference event 0, then reference event 1 with reference event 0 in its waitlist, then test event 2 with reference events 0 and 1 in its waitlist.
+	Image size: 149 x 149 x 150 (12.7035MB)
+		Event status after starting reference events: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: N/A.
+		Event status after starting test event: reference event 0: CL_QUEUED, reference event 1: CL_QUEUED, test event 2: CL_QUEUED.
+		Event status after waiting for reference event 0: reference event 0: CL_COMPLETE, reference event 1: CL_COMPLETE, test event 2: CL_COMPLETE.
+WARNING: Test event already completed. Assumed valid.
+waitlists passed
+userevents...
+Enqueuing tasks
+Checking task status before setting user event status
+Setting user event status to complete
+Waiting for tasks to finish executing
+Checking task status after setting user event status
+Successful user event case passed.
+Enqueuing tasks
+Checking task status before setting user event status
+Setting user event status to unsuccessful result
+Waiting for tasks to finish executing
+Checking task status after setting user event status
+Unsuccessful user event case passed.
+userevents passed
+userevents_multithreaded...
+	Buffer size: 51.2MB
+	Buffer size: 51.2MB
+	Starting trigger thread...
+	Waiting for actions...
+	Triggering gate from separate thread...
+	Actions completed.
+userevents_multithreaded passed
+callbacks...
+
+-- Testing NDRangeKernel...
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing ReadBuffer...
+	Buffer size: 51.2MB
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing WriteBuffer...
+	Buffer size: 51.2MB
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing MapBuffer...
+	Buffer size: 51.2MB
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing UnmapBuffer...
+	Buffer size: 51.2MB
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing ReadImage2D...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing WriteImage2D...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyImage2Dto2D...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing Copy2DImageToBuffer...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyBufferTo2DImage...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing MapImage...
+	Image size: 2048 x 2048 (16MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing ReadImage3D...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing WriteImage3D...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyImage2Dto3D...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyImage3Dto2D...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyImage3Dto3D...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing Copy3DImageToBuffer...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+-- Testing CopyBufferTo3DImage...
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Event callback  0  of type 2 triggered
+	Event callback  1  of type 1 triggered
+	Event callback  2  of type 0 triggered
+	Waiting for callback...
+callbacks passed
+callbacks_simultaneous...
+	Setting up test events...
+	Buffer size: 51.2MB
+	Buffer size: 51.2MB
+	Buffer size: 51.2MB
+	Buffer size: 51.2MB
+	Image size: 2048 x 2048 (16MB)
+	Image size: 2048 x 2048 (16MB)
+	Image size: 2048 x 2048 (16MB)
+	Image size: 2048 x 2048 (16MB)
+	Image size: 2048 x 2048 (16MB)
+	Image size: 2048 x 2048 (16MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Image size: 149 x 149 x 150 (12.7035MB)
+	Waiting for test completions...
+	Event callback triggered for action NDRangeKernel callback type CL_COMPLETE 
+	Event callback triggered for action ReadBuffer callback type CL_COMPLETE 
+	Event callback triggered for action WriteBuffer callback type CL_COMPLETE 
+	Event callback triggered for action MapBuffer callback type CL_COMPLETE 
+	Event callback triggered for action UnmapBuffer callback type CL_COMPLETE 
+	Event callback triggered for action NDRangeKernel callback type CL_RUNNING 
+	Event callback triggered for action NDRangeKernel callback type CL_SUBMITTED 
+	Event callback triggered for action ReadBuffer callback type CL_RUNNING 
+	Event callback triggered for action ReadBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action WriteBuffer callback type CL_RUNNING 
+	Event callback triggered for action WriteBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action MapBuffer callback type CL_RUNNING 
+	Event callback triggered for action MapBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action UnmapBuffer callback type CL_RUNNING 
+	Event callback triggered for action UnmapBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action ReadImage2D callback type CL_COMPLETE 
+	Event callback triggered for action WriteImage2D callback type CL_COMPLETE 
+	Event callback triggered for action CopyImage2Dto2D callback type CL_COMPLETE 
+	Event callback triggered for action Copy2DImageToBuffer callback type CL_COMPLETE 
+	Event callback triggered for action ReadImage2D callback type CL_RUNNING 
+	Event callback triggered for action ReadImage2D callback type CL_SUBMITTED 
+	Event callback triggered for action WriteImage2D callback type CL_RUNNING 
+	Event callback triggered for action WriteImage2D callback type CL_SUBMITTED 
+	Event callback triggered for action CopyImage2Dto2D callback type CL_RUNNING 
+	Event callback triggered for action CopyImage2Dto2D callback type CL_SUBMITTED 
+	Event callback triggered for action Copy2DImageToBuffer callback type CL_RUNNING 
+	Event callback triggered for action Copy2DImageToBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action CopyBufferTo2D callback type CL_COMPLETE 
+	Event callback triggered for action MapImage callback type CL_COMPLETE 
+	Event callback triggered for action ReadImage3D callback type CL_COMPLETE 
+	Event callback triggered for action CopyBufferTo2D callback type CL_RUNNING 
+	Event callback triggered for action CopyBufferTo2D callback type CL_SUBMITTED 
+	Event callback triggered for action MapImage callback type CL_RUNNING 
+	Event callback triggered for action MapImage callback type CL_SUBMITTED 
+	Event callback triggered for action ReadImage3D callback type CL_RUNNING 
+	Event callback triggered for action ReadImage3D callback type CL_SUBMITTED 
+	Event callback triggered for action WriteImage3D callback type CL_COMPLETE 
+	Event callback triggered for action CopyImage2Dto3D callback type CL_COMPLETE 
+	Event callback triggered for action WriteImage3D callback type CL_RUNNING 
+	Event callback triggered for action WriteImage3D callback type CL_SUBMITTED 
+	Event callback triggered for action CopyImage2Dto3D callback type CL_RUNNING 
+	Event callback triggered for action CopyImage2Dto3D callback type CL_SUBMITTED 
+	Event callback triggered for action CopyImage3Dto2D callback type CL_COMPLETE 
+	Event callback triggered for action CopyImage3Dto3D callback type CL_COMPLETE 
+	Event callback triggered for action CopyImage3Dto2D callback type CL_RUNNING 
+	Event callback triggered for action CopyImage3Dto2D callback type CL_SUBMITTED 
+	Event callback triggered for action Copy3DImageToBuffer callback type CL_COMPLETE 
+	Event callback triggered for action CopyImage3Dto3D callback type CL_RUNNING 
+	Event callback triggered for action CopyImage3Dto3D callback type CL_SUBMITTED 
+	Event callback triggered for action Copy3DImageToBuffer callback type CL_RUNNING 
+	Event callback triggered for action Copy3DImageToBuffer callback type CL_SUBMITTED 
+	Event callback triggered for action CopyBufferTo3D callback type CL_COMPLETE 
+	Event callback triggered for action CopyBufferTo3D callback type CL_RUNNING 
+	Event callback triggered for action CopyBufferTo3D callback type CL_SUBMITTED 
+	54 of 54 callbacks received
+callbacks_simultaneous passed
+callback_on_error_simple...
+	Event callback triggered
+callback_on_error_simple passed
+callback_on_error_enqueue_command...
+	Event callback triggered
+callback_on_error_enqueue_command passed
+PASSED 30 of 30 tests.

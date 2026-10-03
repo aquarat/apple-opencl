@@ -1,0 +1,335 @@
+=== Rusticl warning: Patched Mesa libclc not detected. Upstream libclc may contain known bugs or breaking changes and isn't guaranteed to work reliably. Please visit https://gitlab.freedesktop.org/karolherbst/mesa-libclc for more information. ===
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+clamp...
+Just made a program for clamp(half, half, half), in slot 0
+clamp(half, half, half) test passed
+Just made a program for clamp(half2, half2, half2), in slot 1
+clamp(half2, half2, half2) test passed
+Just made a program for clamp(half4, half4, half4), in slot 2
+clamp(half4, half4, half4) test passed
+Just made a program for clamp(half8, half8, half8), in slot 3
+clamp(half8, half8, half8) test passed
+Just made a program for clamp(half16, half16, half16), in slot 4
+clamp(half16, half16, half16) test passed
+Just made a program for clamp(half3, half3, half3), in slot 5
+clamp(half3, half3, half3) test passed
+Just made a program for clamp(float, float, float), in slot 0
+clamp(float, float, float) test passed
+Just made a program for clamp(float2, float2, float2), in slot 1
+clamp(float2, float2, float2) test passed
+Just made a program for clamp(float4, float4, float4), in slot 2
+clamp(float4, float4, float4) test passed
+Just made a program for clamp(float8, float8, float8), in slot 3
+clamp(float8, float8, float8) test passed
+Just made a program for clamp(float16, float16, float16), in slot 4
+clamp(float16, float16, float16) test passed
+Just made a program for clamp(float3, float3, float3), in slot 5
+clamp(float3, float3, float3) test passed
+clamp passed
+clamp_scalar_bounds...
+Just made a program for clamp(half2, half, half), in slot 1
+clamp(half2, half, half) test passed
+Just made a program for clamp(half4, half, half), in slot 2
+clamp(half4, half, half) test passed
+Just made a program for clamp(half8, half, half), in slot 3
+clamp(half8, half, half) test passed
+Just made a program for clamp(half16, half, half), in slot 4
+clamp(half16, half, half) test passed
+Just made a program for clamp(half3, half, half), in slot 5
+clamp(half3, half, half) test passed
+Just made a program for clamp(float2, float, float), in slot 1
+clamp(float2, float, float) test passed
+Just made a program for clamp(float4, float, float), in slot 2
+clamp(float4, float, float) test passed
+Just made a program for clamp(float8, float, float), in slot 3
+clamp(float8, float, float) test passed
+Just made a program for clamp(float16, float, float), in slot 4
+clamp(float16, float, float) test passed
+Just made a program for clamp(float3, float, float), in slot 5
+clamp(float3, float, float) test passed
+clamp_scalar_bounds passed
+degrees...
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half1 test passed
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half2 test passed
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half4 test passed
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half8 test passed
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half16 test passed
+degrees: Max error 1.000173 ulps at 32839, input -0x1.1cp-18: *-0x1.fc8002d46ab2fp-13 vs -0x1.fc4p-13  (*-0.000242472 vs -0.000242352)
+degrees half3 test passed
+degrees: Max error 0.690901 ulps at 13625, input 0x1.19d9d4p+17: *0x1.f8a6ee9e42453p+22 vs 0x1.f8a6fp+22  (*8.26822e+06 vs 8.26822e+06)
+degrees float1 test passed
+degrees: Max error 0.690950 ulps at 29456, input 0x1.1cab04p+18: *0x1.fdb2369e3bc3bp+23 vs 0x1.fdb238p+23  (*1.67017e+07 vs 1.67017e+07)
+degrees float2 test passed
+degrees: Max error 0.690950 ulps at 29456, input 0x1.1cab04p+18: *0x1.fdb2369e3bc3bp+23 vs 0x1.fdb238p+23  (*1.67017e+07 vs 1.67017e+07)
+degrees float4 test passed
+degrees: Max error 0.692863 ulps at 62803, input 0x1.1cfdbp+18: *0x1.fe463c9d411eap+23 vs 0x1.fe463ep+23  (*1.67207e+07 vs 1.67207e+07)
+degrees float8 test passed
+degrees: Max error 0.694676 ulps at 73326, input 0x1.1ca08p+18: *0x1.fd9f629c536bap+23 vs 0x1.fd9f64p+23  (*1.66993e+07 vs 1.66993e+07)
+degrees float16 test passed
+degrees: Max error 0.692406 ulps at 92816, input 0x1.1bab48p+18: *0x1.fbe8529d7cf7cp+23 vs 0x1.fbe854p+23  (*1.66431e+07 vs 1.66431e+07)
+degrees float3 test passed
+degrees passed
+radians...
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half1 test passed
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half2 test passed
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half4 test passed
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half8 test passed
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half16 test passed
+radians: Max error 0.806466 ulps at 7966, input 0x1.c78p-8: *0x1.fccc62dd1febfp-14 vs 0x1.fdp-14  (*0.000121307 vs 0.000121355)
+radians half3 test passed
+radians: Max error 0.628009 ulps at 11700, input -0x1.c9e2bcp+15: *-0x1.ff7695418a6cep+9 vs -0x1.ff7694p+9  (*-1022.93 vs -1022.93)
+radians float1 test passed
+radians: Max error 0.629125 ulps at 21091, input -0x1.c7f1dap+17: *-0x1.fd4b8f421cb71p+11 vs -0x1.fd4b8ep+11  (*-4074.36 vs -4074.36)
+radians float2 test passed
+radians: Max error 0.629125 ulps at 21091, input -0x1.c7f1dap+17: *-0x1.fd4b8f421cb71p+11 vs -0x1.fd4b8ep+11  (*-4074.36 vs -4074.36)
+radians float4 test passed
+radians: Max error 0.629125 ulps at 21091, input -0x1.c7f1dap+17: *-0x1.fd4b8f421cb71p+11 vs -0x1.fd4b8ep+11  (*-4074.36 vs -4074.36)
+radians float8 test passed
+radians: Max error 0.629125 ulps at 21091, input -0x1.c7f1dap+17: *-0x1.fd4b8f421cb71p+11 vs -0x1.fd4b8ep+11  (*-4074.36 vs -4074.36)
+radians float16 test passed
+radians: Max error 0.629125 ulps at 21091, input -0x1.c7f1dap+17: *-0x1.fd4b8f421cb71p+11 vs -0x1.fd4b8ep+11  (*-4074.36 vs -4074.36)
+radians float3 test passed
+radians passed
+sign...
+32768) Error: sign(-0x0p+0) returned 0x0p+0
+sign half1 test failed
+ERROR: SignTest::Run<cl_half> failed! (CL_DEVICE_NOT_FOUND from ~/Projects/apple-opencl/cts-src/test_conformance/commonfns/test_unary_fn.cpp:439)
+ERROR: Test Failed! (CL_DEVICE_NOT_FOUND from ~/Projects/apple-opencl/cts-src/test_conformance/commonfns/test_base.h:232)
+sign FAILED
+mix...
+mix half verification result, max delta: 0x1.1e5c64dde832p-10
+mix half1 test passed
+mix half verification result, max delta: 0x1.21af286bca1afp-10
+mix half2 test passed
+mix half verification result, max delta: 0x1.26abdf6f43d83p-10
+mix half4 test passed
+mix half verification result, max delta: 0x1.514dbf86a314ep-10
+mix half8 test passed
+mix half verification result, max delta: 0x1.53af040c98f86p-10
+mix half16 test passed
+mix half verification result, max delta: 0x1.26abdf6f43d83p-10
+mix half3 test passed
+mix float1 test passed
+mix float2 test passed
+mix float4 test passed
+mix float8 test passed
+mix float16 test passed
+mix float3 test passed
+mix passed
+mixf...
+mix half verification result, max delta: 0x1.1e5c64dde832p-10
+mix half1, half test passed
+mix half verification result, max delta: 0x1.3972474538ef3p-10
+mix half2, half test passed
+mix half verification result, max delta: 0x1.47f35e817751p-10
+mix half4, half test passed
+mix half verification result, max delta: 0x1.35dc3d0e644e8p-10
+mix half8, half test passed
+mix half verification result, max delta: 0x1.54846e0c1fb56p-10
+mix half16, half test passed
+mix half verification result, max delta: 0x1.48e0070e551cep-10
+mix half3, half test passed
+mix float1, float test passed
+mix float2, float test passed
+mix float4, float test passed
+mix float8, float test passed
+mix float16, float test passed
+mix float3, float test passed
+mixf passed
+step...
+step half1 test passed
+step half2 test passed
+step half4 test passed
+step half8 test passed
+step half16 test passed
+step half3 test passed
+step float1 test passed
+step float2 test passed
+step float4 test passed
+step float8 test passed
+step float16 test passed
+step float3 test passed
+step passed
+stepf...
+step half1, half test passed
+step half2, half test passed
+step half4, half test passed
+step half8, half test passed
+step half16, half test passed
+step half3, half test passed
+step float1, float test passed
+step float2, float test passed
+step float4, float test passed
+step float8, float test passed
+step float16, float test passed
+step float3, float test passed
+stepf passed
+smoothstep...
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half1 test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half2 test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half4 test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half8 test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half16 test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half3 test passed
+smoothstep float1 test passed
+smoothstep float2 test passed
+smoothstep float4 test passed
+smoothstep float8 test passed
+smoothstep float16 test passed
+smoothstep float3 test passed
+smoothstep passed
+smoothstepf...
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half1, half test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half2, half test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half4, half test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half8, half test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half16, half test passed
+smoothstep half verification result, max delta: 0x1p+0
+smoothstep half3, half test passed
+smoothstep float1, float test passed
+smoothstep float2, float test passed
+smoothstep float4, float test passed
+smoothstep float8, float test passed
+smoothstep float16, float test passed
+smoothstep float3, float test passed
+smoothstepf passed
+min...
+min half1 test passed
+min half2 test passed
+min half4 test passed
+min half8 test passed
+min half16 test passed
+min half3 test passed
+min float1 test passed
+min float2 test passed
+min float4 test passed
+min float8 test passed
+min float16 test passed
+min float3 test passed
+min passed
+minf...
+min half1, half test passed
+min half2, half test passed
+min half4, half test passed
+min half8, half test passed
+min half16, half test passed
+min half3, half test passed
+min float1, float test passed
+min float2, float test passed
+min float4, float test passed
+min float8, float test passed
+min float16, float test passed
+min float3, float test passed
+minf passed
+fmin...
+fmin half1 test passed
+fmin half2 test passed
+fmin half4 test passed
+fmin half8 test passed
+fmin half16 test passed
+fmin half3 test passed
+fmin float1 test passed
+fmin float2 test passed
+fmin float4 test passed
+fmin float8 test passed
+fmin float16 test passed
+fmin float3 test passed
+fmin passed
+fminf...
+fmin half1, half test passed
+fmin half2, half test passed
+fmin half4, half test passed
+fmin half8, half test passed
+fmin half16, half test passed
+fmin half3, half test passed
+fmin float1, float test passed
+fmin float2, float test passed
+fmin float4, float test passed
+fmin float8, float test passed
+fmin float16, float test passed
+fmin float3, float test passed
+fminf passed
+max...
+max half1 test passed
+max half2 test passed
+max half4 test passed
+max half8 test passed
+max half16 test passed
+max half3 test passed
+max float1 test passed
+max float2 test passed
+max float4 test passed
+max float8 test passed
+max float16 test passed
+max float3 test passed
+max passed
+maxf...
+max half1, half test passed
+max half2, half test passed
+max half4, half test passed
+max half8, half test passed
+max half16, half test passed
+max half3, half test passed
+max float1, float test passed
+max float2, float test passed
+max float4, float test passed
+max float8, float test passed
+max float16, float test passed
+max float3, float test passed
+maxf passed
+fmax...
+fmax half1 test passed
+fmax half2 test passed
+fmax half4 test passed
+fmax half8 test passed
+fmax half16 test passed
+fmax half3 test passed
+fmax float1 test passed
+fmax float2 test passed
+fmax float4 test passed
+fmax float8 test passed
+fmax float16 test passed
+fmax float3 test passed
+fmax passed
+fmaxf...
+fmax half1, half test passed
+fmax half2, half test passed
+fmax half4, half test passed
+fmax half8, half test passed
+fmax half16, half test passed
+fmax half3, half test passed
+fmax float1, float test passed
+fmax float2, float test passed
+fmax float4, float test passed
+fmax float8, float test passed
+fmax float16, float test passed
+fmax float3, float test passed
+fmaxf passed
+FAILED 1 of 19 tests.

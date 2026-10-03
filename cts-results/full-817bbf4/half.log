@@ -1,0 +1,68 @@
+sizeof( void*) = 8
+ARCH:	aarch64
+system name = Linux
+node name   = <host>
+release     = 7.1.13-402.asahi.fc44.aarch64+16k
+version     = #1 SMP PREEMPT_DYNAMIC Tue Sep  8 22:03:08 UTC 2026
+machine     = aarch64
+	Profile: Full
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+8 compute devices at 1.278000 GHz
+Max thread group size is 1024.
+Using const buffer size 0x200000 (2097152)
+
+Compute Device info:
+	Device Name: Apple M1 (G13G B1)
+	Vendor: Apple
+	Device Version: OpenCL 3.1 
+	OpenCL C Version: OpenCL C 1.2 
+	Driver Version: 26.3.0-devel (git-817bbf4718)
+	Processing with 8 devices
+	Device Frequency: 1278 MHz
+	Has double? NO
+	Test double? NO
+vload_half...
+.
+vload_half passed
+vloada_half...
+.
+vloada_half passed
+roundTrip...
+.
+roundTrip passed
+vstore_half...
+................vstore_half passed
+vstore_half_rte...
+................vstore_half_rte passed
+vstore_half_rtz...
+................vstore_half_rtz passed
+vstore_half_rtp...
+................vstore_half_rtp passed
+vstore_half_rtn...
+................vstore_half_rtn passed
+vstorea_half...
+................vstorea_half passed
+vstorea_half_rte...
+................vstorea_half_rte passed
+vstorea_half_rtz...
+................vstorea_half_rtz passed
+vstorea_half_rtp...
+................vstorea_half_rtp passed
+vstorea_half_rtn...
+................vstorea_half_rtn passed
+PASSED 13 of 13 tests.
+ThreadPool: thread 6 exiting.
+ThreadPool: thread 5 exiting.
+ThreadPool: thread 3 exiting.
+ThreadPool: thread 1 exiting.
+ThreadPool: thread 7 exiting.
+ThreadPool: thread 0 exiting.
+ThreadPool: thread 2 exiting.
+ThreadPool: thread 4 exiting.
+Thread pool exited in a orderly fashion.

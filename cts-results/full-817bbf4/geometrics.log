@@ -1,0 +1,53 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+geom_cross...
+Extension cl_khr_fp64 not supported; skipping double tests.
+geom_cross passed
+geom_dot...
+Extension cl_khr_fp64 not supported; skipping double tests.
+geom_dot passed
+geom_fast_distance...
+   fast_distance vector size 1 passed
+   fast_distance vector size 2 passed
+   fast_distance vector size 3 passed
+   fast_distance vector size 4 passed
+geom_fast_distance passed
+geom_distance...
+   distance vector size 1 passed
+   distance vector size 2 passed
+   distance vector size 3 passed
+   distance vector size 4 passed
+Extension cl_khr_fp64 not supported; skipping double tests.
+geom_distance passed
+geom_length...
+   length vector vector size 1 passed
+   length vector vector size 2 passed
+   length vector vector size 3 passed
+   length vector vector size 4 passed
+Extension cl_khr_fp64 not supported; skipping double tests.
+geom_length passed
+geom_fast_length...
+   fast_length vector size 1 passed
+   fast_length vector size 2 passed
+   fast_length vector size 3 passed
+   fast_length vector size 4 passed
+geom_fast_length passed
+geom_normalize...
+   normalized vector size 1 passed
+   normalized vector size 2 passed
+   normalized vector size 3 passed
+   normalized vector size 4 passed
+Extension cl_khr_fp64 not supported; skipping double tests.
+geom_normalize passed
+geom_fast_normalize...
+   fast_normalize vector size 1 passed
+   fast_normalize vector size 2 passed
+   fast_normalize vector size 3 passed
+   fast_normalize vector size 4 passed
+geom_fast_normalize passed
+PASSED 8 of 8 tests.

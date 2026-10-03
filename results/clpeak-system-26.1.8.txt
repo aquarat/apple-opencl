@@ -1,0 +1,405 @@
+Backend: Vulkan
+MESA: error: Opening /dev/dri/card2 failed: Permission denied
+MESA: error: Opening /dev/dri/card1 failed: Permission denied
+  Device 0: Apple M1 (G13G B1)
+    Driver version   : 26.1.8
+    API version      : 1.4.354
+    VRAM             : 7742 MB
+
+    Single-precision compute (GFLOPS)
+      float    : 2251.64
+      float2   : 2385.79
+      float4   : 2506.78
+
+    Half-precision compute fp16xfp16+fp16 (GFLOPS)
+      half     : 2262.06
+      half2    : 2392.05
+      half4    : 2409.99
+
+    Double-precision compute (GFLOPS)
+      double   : [unsupported] shaderFloat64 not supported! Skipped
+      double2  : [unsupported] shaderFloat64 not supported! Skipped
+      double4  : [unsupported] shaderFloat64 not supported! Skipped
+
+    Mixed-precision compute fp16xfp16+fp32 (GFLOPS)
+      mp       : 1957.56
+      mp2      : 2270.78
+      mp4      : 2506.68
+
+    BF16 compute bf16xbf16+fp32 (GFLOPS)
+      bf16     : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+      bf16_2   : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+      bf16_4   : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+
+    Cooperative-matrix fp32xfp32+fp32 (TFLOPS)
+      coopmat_fp32 : [unsupported] No fp32xfp32+fp32 coopmat property! Skipped
+
+    Cooperative-matrix fp16xfp16+fp32 (TFLOPS)
+      coopmat_fp16 : [unsupported] No fp16xfp16+fp32 coopmat property! Skipped
+
+    Cooperative-matrix bf16xbf16+fp32 (TFLOPS)
+      coopmat_bf16 : [unsupported] No bf16xbf16+fp32 coopmat property! Skipped
+
+    Cooperative-matrix fp8(E4M3)xfp8(E4M3)+fp32 (TFLOPS)
+      coopmat_fp8_e4m3 : [unsupported] No fp8-E4M3 coopmat support (VK_EXT_shader_float8 or property)! Skipped
+
+    Cooperative-matrix fp8(E5M2)xfp8(E5M2)+fp32 (TFLOPS)
+      coopmat_fp8_e5m2 : [unsupported] No fp8-E5M2 coopmat support (VK_EXT_shader_float8 or property)! Skipped
+
+    Integer compute int32 (GOPS)
+      int      : 650.12
+      int2     : 649.66
+      int4     : 654.86
+
+    INT8 dot-product compute (GOPS)
+      int8_dp  : 236.87
+      int8_dp2 : 237.12
+      int8_dp4 : 235.38
+
+    Cooperative-matrix int8xint8+int32 (TOPS)
+      coopmat_int8 : [unsupported] No int8xint8+int32 coopmat property! Skipped
+
+    Global memory bandwidth (GBPS)
+      float    : 46.54
+      float2   : 51.03
+      float4   : 49.82
+
+    Local memory bandwidth (GBPS)
+      float    : 785.96
+      float2   : 944.64
+      float4   : 1168.46
+
+    Image memory bandwidth (GBPS)
+      float4   : 38.99
+
+    Transfer bandwidth (GBPS)
+      h2d      : 12216.37
+      d2h      : 11964.18
+
+    Kernel launch latency (US)
+      dispatch  : 110.61
+      roundtrip : 217.87
+
+  Device 1: llvmpipe (LLVM 22.1.8, 128 bits)
+    Driver version   : 26.1.8
+    API version      : 1.4.354
+    VRAM             : 15485 MB
+
+    Single-precision compute (GFLOPS)
+      float    : 19.31
+      float2   : 37.77
+      float4   : 72.26
+
+    Half-precision compute fp16xfp16+fp16 (GFLOPS)
+      half     : 19.82
+      half2    : 38.15
+      half4    : 74.42
+
+    Double-precision compute (GFLOPS)
+      double   : 11.58
+      double2  : 21.54
+      double4  : 38.72
+
+    Mixed-precision compute fp16xfp16+fp32 (GFLOPS)
+      mp       : 20.12
+      mp2      : 38.56
+      mp4      : 73.57
+
+    BF16 compute bf16xbf16+fp32 (GFLOPS)
+      bf16     : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+      bf16_2   : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+      bf16_4   : [unsupported] VK_KHR_shader_bfloat16 / shaderBFloat16Type not supported! Skipped
+
+    Cooperative-matrix fp32xfp32+fp32 (TFLOPS)
+      coopmat_fp32 : [unsupported] No fp32xfp32+fp32 coopmat property! Skipped
+
+    Cooperative-matrix fp16xfp16+fp32 (TFLOPS)
+      coopmat_fp16 : [unsupported] No fp16xfp16+fp32 coopmat property! Skipped
+
+    Cooperative-matrix bf16xbf16+fp32 (TFLOPS)
+      coopmat_bf16 : [unsupported] No bf16xbf16+fp32 coopmat property! Skipped
+
+    Cooperative-matrix fp8(E4M3)xfp8(E4M3)+fp32 (TFLOPS)
+      coopmat_fp8_e4m3 : [unsupported] No fp8-E4M3 coopmat support (VK_EXT_shader_float8 or property)! Skipped
+
+    Cooperative-matrix fp8(E5M2)xfp8(E5M2)+fp32 (TFLOPS)
+      coopmat_fp8_e5m2 : [unsupported] No fp8-E5M2 coopmat support (VK_EXT_shader_float8 or property)! Skipped
+
+    Integer compute int32 (GOPS)
+      int      : 38.45
+      int2     : 72.95
+      int4     : 121.43
+
+    INT8 dot-product compute (GOPS)
+      int8_dp  : 20.61
+      int8_dp2 : 36.07
+      int8_dp4 : 57.31
+
+    Cooperative-matrix int8xint8+int32 (TOPS)
+      coopmat_int8 : [unsupported] No int8xint8+int32 coopmat property! Skipped
+
+    Global memory bandwidth (GBPS)
+      float    : 20.21
+      float2   : 11.58
+      float4   : 9.40
+
+    Local memory bandwidth (GBPS)
+      float    : 9.83
+      float2   : 13.65
+      float4   : 22.21
+
+    Image memory bandwidth (GBPS)
+      float4   : 11.67
+
+    Transfer bandwidth (GBPS)
+      h2d      : 27.70
+      d2h      : 28.11
+
+    Kernel launch latency (US)
+      dispatch  : 9.42
+      roundtrip : 130.12
+
+Backend: OpenCL
+  Platform 0: rusticl
+    Device 0: Apple M1 (G13G B1)
+      Driver version   : 26.1.8
+      Compute units    : 8
+      Clock frequency  : 1278 MHz
+
+      Single-precision compute (GFLOPS)
+        float    : 2253.33
+        float2   : 2381.00
+        float4   : 2576.56
+        float8   : 2483.79
+        float16  : 2485.91
+
+      Half-precision compute (GFLOPS)
+        half     : 2257.77
+        half2    : 2387.33
+        half4    : 2576.79
+        half8    : 2430.31
+        half16   : 2465.31
+
+      Double-precision compute (GFLOPS)
+        [unsupported] No double precision support
+
+      Mixed-precision compute fp16xfp16+fp32 (GFLOPS)
+        mp       : 551.03
+        mp2      : 952.01
+        mp4      : 1215.75
+        mp8      : 56392.39
+        mp16     : 56588.14
+
+      Integer compute (GOPS)
+        int      : 643.39
+        int2     : 638.70
+        int4     : 649.45
+        int8     : 651.86
+        int16    : 656.61
+
+      Integer compute Fast 24bit (GOPS)
+        int      : 645.01
+        int2     : 644.36
+        int4     : 649.44
+        int8     : 652.02
+        int16    : 656.91
+
+      Integer char (8bit) compute (GOPS)
+        char     : 516.68
+        char2    : 542.38
+        char4    : 648.26
+        char8    : 654.57
+        char16   : 659.59
+
+      Integer short (16bit) compute (GOPS)
+        short    : 649.10
+        short2   : 648.60
+        short4   : 644.34
+        short8   : 650.98
+        short16  : 661.05
+
+      INT8 dot-product compute (GOPS)
+        int8_dp   : 2681.44
+        int8_dp2  : 4389.71
+        int8_dp4  : 6146.60
+        int8_dp8  : 7099.20
+        int8_dp16 : 8700.21
+
+      Global memory bandwidth (GBPS)
+        float    : 56.21
+        float2   : 58.40
+        float4   : 58.88
+        float8   : 61.54
+        float16  : 64.24
+
+      Local memory bandwidth (GBPS)
+        float    : 887.17
+        float2   : 914.90
+        float4   : 1186.50
+        float8   : 783.33
+
+      Image memory bandwidth (GBPS)
+        float4   : 45.16
+
+      Transfer bandwidth (GBPS)
+        enqueuewritebuffer             : 27.09
+        enqueuereadbuffer              : 28.32
+        enqueuewritebuffer_nonblocking : 28.53
+        enqueuereadbuffer_nonblocking  : 28.33
+        enqueuemapbuffer               : 12.93
+          memcpy_from_mapped_ptr       : 28.87
+        enqueueunmap                   : 23.56
+          memcpy_to_mapped_ptr         : 12.97
+
+      Kernel launch latency (US)
+        dispatch  : 25.67
+        roundtrip : 246.54
+
+Backend: CPU
+  Device 0: 4x Apple CPU (part 0x022) + 4x Apple CPU (part 0x023)
+    Vendor           : Apple
+    ISA              : NEON
+    Cores            : 8 threads / 8 cores
+    Clock            : 2064 MHz
+    L1d              : 512 KB (64 KB x 8)
+    L2               : 8 MB (4 MB x 2)
+    L3               : 8 MB
+    RAM              : 15.1 GB
+
+    Single-precision compute (NEON) (GFLOPS)
+      float ST : 32.91
+      float MT : 254.70
+
+    Half-precision compute (NEON FP16) (GFLOPS)
+      half ST  : 65.81
+      half MT  : 517.85
+
+    Double-precision compute (NEON) (GFLOPS)
+      double ST : 16.46
+      double MT : 130.32
+
+    Mixed-precision compute fp16xfp16+fp32 (NEON FP16FML) (GFLOPS)
+      mp ST    : 14.82
+      mp MT    : 118.41
+
+    BF16 compute bf16xbf16+fp32 (GFLOPS)
+      bf16 ST  : [unsupported] no bf16 dot instruction on this CPU
+
+    FP8 dot-product compute fp8xfp8+fp32 (GFLOPS)
+      fp8_dp ST : [unsupported] no fp8 dot instruction (FEAT_FP8DOT4) on this CPU
+
+    Single-precision divide (NEON) (GFLOPS)
+      fdiv ST  : 4.11
+      fdiv MT  : 32.69
+
+    Double-precision divide (NEON) (GFLOPS)
+      fdiv ST  : 2.06
+      fdiv MT  : 16.36
+
+    Single-precision sqrt (NEON) (GFLOPS)
+      fsqrt ST : 2.04
+      fsqrt MT : 16.12
+
+    Double-precision sqrt (NEON) (GFLOPS)
+      fsqrt ST : 1.03
+      fsqrt MT : 8.04
+
+    CPU matrix engine (bf16) (GFLOPS)
+      matrix_bf16 ST : [unsupported] no CPU bf16 matrix engine (AMX / BFMMLA / SME) on this CPU
+
+    CPU matrix engine (fp16) (GFLOPS)
+      matrix_fp16 ST : [unsupported] no CPU fp16 matrix engine (AMX-FP16 / SME) on this CPU
+
+    CPU matrix engine (fp32) (GFLOPS)
+      matrix_fp32 ST : [unsupported] no CPU fp32 matrix engine (SME) on this CPU
+
+    CPU matrix engine (fp64) (GFLOPS)
+      matrix_fp64 ST : [unsupported] no CPU fp64 matrix engine (SME F64F64) on this CPU
+
+    SMT scaling (fp32 FMA) (GFLOPS)
+      1T/core  : [unsupported] no SMT on this CPU
+
+    Integer compute (NEON) (GOPS)
+      int ST   : 12.37
+      int MT   : 98.96
+
+    INT8 dot-product compute (NEON DotProd) (GOPS)
+      int8_dp ST : 131.63
+      int8_dp MT : 1042.35
+
+    Integer divide compute u64 (GOPS)
+      u64 ST   : 0.10
+      u64 MT   : 0.82
+
+    CPU matrix engine (int8) (GOPS)
+      matrix_int8 ST : [unsupported] no CPU int8 matrix engine (AMX / I8MM / SME) on this CPU
+
+    AES-128 encrypt (NEON AES) (GBPS)
+      aes ST   : 5.90
+      aes MT   : 47.16
+
+    SHA-256 hash (NEON SHA2) (GBPS)
+      sha256 ST : 1.68
+      sha256 MT : 13.29
+
+    SHA-512 hash (NEON SHA512) (GBPS)
+      sha512 ST : 0.59
+      sha512 MT : 4.66
+
+    CRC32-C checksum (ARMv8 CRC32) (GBPS)
+      crc32c ST : 16.45
+      crc32c MT : 128.77
+
+    String scan (NEON) (GBPS)
+      byte_scan ST : 23.03
+      byte_scan MT : 184.32
+
+    UTF-8 validate (NEON) (GBPS)
+      utf8 ST  : 3.46
+      utf8 MT  : 27.39
+
+    DRAM bandwidth (GBPS)
+      read     : 44.29
+      copy     : 43.72
+      triad    : 44.62
+
+    Cache bandwidth (read) (GBPS)
+      L1 ST    : 51.95
+      L1 MT    : 415.68
+      L2 ST    : 31.35
+      L2 MT    : 255.09
+      L3 ST    : 27.41
+      L3 MT    : 248.89
+
+    L1 bandwidth (write / copy) (GBPS)
+      write ST : 32.68
+      write MT : 257.42
+      copy ST  : 64.03
+      copy MT  : 511.65
+
+    Memory latency (pointer-chase) (NS)
+      L1          : 2.43
+      L2          : 7.96
+      L3          : 19.29
+      DRAM        : 153.64
+      DRAM linear : 2.87
+      DRAM x8     : 17.55
+      DRAM x32    : 8.24
+      TLB miss    : 19.77
+
+    Atomic fetch-add latency (NS)
+      uncontended ST : 2.93
+      contended MT   : 31.14
+
+    Branch mispredict penalty (NS)
+      predicted : 0.97
+      random    : 5.07
+      penalty   : 8.19
+
+    Store-to-load forwarding (NS)
+      st->ld ST : 2.91
+
+
+real	9m15.384s
+user	9m28.327s
+sys	0m6.344s

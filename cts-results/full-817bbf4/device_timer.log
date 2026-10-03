@@ -1,0 +1,16 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+device_and_host_timers...
+Checking results from clGetDeviceAndHostTimer ...
+Cross-checking results with clGetHostTimer ...
+device_and_host_timers passed
+timer_resolution_queries...
+CL_DEVICE_PROFILING_TIMER_RESOLUTION == 1 nanoseconds
+CL_PLATFORM_HOST_TIMER_RESOLUTION == 1 nanoseconds
+timer_resolution_queries passed
+PASSED 2 of 2 tests.

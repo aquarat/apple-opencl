@@ -1,0 +1,496 @@
+sizeof( void*) = 8
+ARCH:	aarch64
+system name = Linux
+node name   = <host>
+release     = 7.1.13-402.asahi.fc44.aarch64+16k
+version     = #1 SMP PREEMPT_DYNAMIC Tue Sep  8 22:03:08 UTC 2026
+machine     = aarch64
+
+*** WARNING: Testing in Wimpy mode!                     ***
+*** Wimpy mode is not sufficient to verify correctness. ***
+*** Wimpy Reduction Factor: 32                          ***
+
+   	                                           	  max_ulps
+-----------------------------------------------------------------------------------------------------------
+
+**************************
+***    !! WARNING !!   ***
+*** Wimpy mode enabled ***
+**************************
+
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+*** PreventSleep() is not implemented on this platform.
+
+Compute Device info:
+	Platform Version: OpenCL 3.1 
+	Device Name: Apple M1 (G13G B1)
+	Vendor: Apple
+	Device Version: OpenCL 3.1 
+	CL C Version: OpenCL C 1.2 
+	Driver Version: 26.3.0-devel (git-817bbf4718)
+	Device Frequency: 1278 MHz
+	Subnormal values supported for floats? NO
+	Correctly rounded divide and sqrt supported for floats? NO
+	Testing with FTZ mode ON for floats? YES
+	Testing single precision? YES
+	Testing fast relaxed math? YES
+	Fast relaxed math has derived implementations? YES
+	Testing double precision? NO
+	Testing half precision? YES
+	Is Embedded? NO
+	Tininess is detected before rounding? YES
+	Worker threads: 8
+	Testing vector sizes:	1	2	3	4	8	16
+	Verbose? NO
+
+
+math_edge_cases...
+float
+SKIP (no CL_FP_DENORM): nextafter
+SKIP (no CL_FP_DENORM): nextafter
+half
+SKIP fp16 (no CL_FP_DENORM): nextafter
+SKIP fp16 (no CL_FP_DENORM): nextafter
+skipping double test
+math_edge_cases passed
+acos...
+  1:            acos fp32  rlx................Wimp pass	    1.35 @ -0x1.0d9ep-1
+  2:            acos fp32     ................Wimp pass	    1.35 @ -0x1.0d9ep-1
+  3:            acos fp16     .Wimp pass	    0.00 @ 0x0p+0
+acos passed
+acosh...
+  4:           acosh fp32     ................Wimp pass	    2.20 @ 0x1.1a56p+0
+  5:           acosh fp16     .Wimp pass	    0.00 @ 0x0p+0
+acosh passed
+acospi...
+  6:          acospi fp32     ................Wimp pass	    1.80 @ 0x1.6efcp-1
+  7:          acospi fp16     .Wimp pass	    0.00 @ 0x0p+0
+acospi passed
+asin...
+  8:            asin fp32  rlx................Wimp pass	    0.79 @ -0x1.00a6p-1
+  9:            asin fp32     ................Wimp pass	    0.79 @ -0x1.00a6p-1
+ 10:            asin fp16     .Wimp pass	    0.00 @ 0x0p+0
+asin passed
+asinh...
+ 11:           asinh fp32     ................Wimp pass	    1.91 @ -0x1.15b6p+1
+ 12:           asinh fp16     .Wimp pass	    0.00 @ 0x0p+0
+asinh passed
+asinpi...
+ 13:          asinpi fp32     ................Wimp pass	    2.03 @ -0x1.ff44p-1
+ 14:          asinpi fp16     .Wimp pass	    0.00 @ 0x0p+0
+asinpi passed
+atan...
+ 15:            atan fp32  rlx................Wimp pass	    1.17 @ 0x1.83ecp-1
+ 16:            atan fp32     ................Wimp pass	    1.17 @ 0x1.83ecp-1
+ 17:            atan fp16     .Wimp pass	    0.00 @ 0x0p+0
+atan passed
+atanh...
+ 18:           atanh fp32     ................Wimp pass	    1.15 @ 0x1.0142p-1
+ 19:           atanh fp16     .Wimp pass	    0.00 @ 0x0p+0
+atanh passed
+atanpi...
+ 20:          atanpi fp32     ................Wimp pass	    1.95 @ 0x1.5e46p-1
+ 21:          atanpi fp16     .Wimp pass	    0.00 @ 0x0p+0
+atanpi passed
+atan2...
+ 22:           atan2 fp32     ................Wimp pass	    6.00 @ {-0x1.8p-147, 0x1p+0}
+ 23:           atan2 fp16     ................Wimp pass	    0.50 @ {0x1.01p+12, 0x1.fd8p+11}
+atan2 passed
+atan2pi...
+ 24:         atan2pi fp32     ................Wimp pass	    6.00 @ {-0x1.a57cd4p-41, 0x1.65c89ap+104}
+ 25:         atan2pi fp16     ................Wimp pass	    0.50 @ {0x1.e64p-2, 0x1.608p+9}
+atan2pi passed
+cbrt...
+ 26:            cbrt fp32     ................Wimp pass	    0.50 @ -0x1.92bap+113
+ 27:            cbrt fp16     .Wimp pass	    0.00 @ 0x0p+0
+cbrt passed
+ceil...
+ 28:            ceil fp32     ................Wimp pass	    0.00 @ 0x0p+0
+ 29:            ceil fp16     .Wimp pass	    0.00 @ 0x0p+0
+ceil passed
+copysign...
+ 30:        copysign fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+ 31:        copysign fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+copysign passed
+cos...
+ 32:             cos fp32  rlx................Wimp pass	    1.00 @ -0x1.000ap-1
+ 33:             cos fp32     ................Wimp pass	    2.00 @ -0x1.bd56p+21
+ 34:             cos fp16     .Wimp pass	    0.00 @ 0x0p+0
+cos passed
+cosh...
+ 35:            cosh fp32     ................Wimp pass	    2.15 @ 0x1.0686p+1
+ 36:            cosh fp16     .Wimp pass	    0.00 @ 0x0p+0
+cosh passed
+cospi...
+ 37:           cospi fp32  rlx................Wimp pass	    1.87 @ 0x1.addep-2
+ 38:           cospi fp32     ................Wimp pass	    1.87 @ -0x1.addep-2
+ 39:           cospi fp16     .Wimp pass	    0.00 @ 0x0p+0
+cospi passed
+exp...
+ 40:             exp fp32  rlx................Wimp pass	3424643.75 @ -0x1.60eep+6
+ 41:             exp fp32     ................Wimp pass	    3.00 @ -0x1.98bap+6
+ 42:             exp fp16     .Wimp pass	    0.00 @ 0x0p+0
+exp passed
+exp2...
+ 43:            exp2 fp32  rlx................Wimp pass	5528426.50 @ -0x1.fa68p+6
+ 44:            exp2 fp32     ................Wimp pass	    2.99 @ -0x1.26d6p+7
+ 45:            exp2 fp16     .Wimp pass	    0.00 @ 0x0p+0
+exp2 passed
+exp10...
+ 46:           exp10 fp32  rlx................Wimp pass	8371538.50 @ -0x1.2f72p+5
+ 47:           exp10 fp32     ................Wimp pass	    3.00 @ -0x1.6304p+5
+ 48:           exp10 fp16     .Wimp pass	    0.00 @ 0x0p+0
+exp10 passed
+expm1...
+ 49:           expm1 fp32     ................Wimp pass	    1.16 @ 0x1.f7fp-6
+ 50:           expm1 fp16     .Wimp pass	    0.00 @ 0x0p+0
+expm1 passed
+fabs...
+ 51:            fabs fp32     ................Wimp pass	    0.00 @ 0x0p+0
+ 52:            fabs fp16     .Wimp pass	    0.00 @ 0x0p+0
+fabs passed
+fdim...
+ 53:            fdim fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+ 54:            fdim fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+fdim passed
+floor...
+ 55:           floor fp32     ................Wimp pass	    0.00 @ 0x0p+0
+ 56:           floor fp16     .Wimp pass	    0.00 @ 0x0p+0
+floor passed
+fma...
+ 57:             fma fp32     Test Error: not all special cases tested!
+................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0, 0x0p+0}
+ 58:             fma fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0, 0x0p+0}
+fma passed
+fmax...
+ 59:            fmax fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+ 60:            fmax fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+fmax passed
+fmin...
+ 61:            fmin fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+ 62:            fmin fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+fmin passed
+fmod...
+ 63:            fmod fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+ 64:            fmod fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+fmod passed
+fract...
+ 65:           fract fp32     ................Wimp pass	{    0.00,     0.00} @ {0x0p+0, 0x0p+0}
+ 66:           fract fp16     .Wimp pass	{    0.00,     0.00} @ {0x0p+0, 0x0p+0}
+fract passed
+frexp...
+ 67:           frexp fp32     ................Wimp pass	{    0.00, 0} @ {0x0p+0, 0x0p+0}
+ 68:           frexp fp16     .Wimp pass	{    0.00, 0} @ {0x0p+0, 0x0p+0}
+frexp passed
+hypot...
+ 69:           hypot fp32     ................Wimp pass	    4.00 @ {-0x1.403c94p-118, 0x1.1e3eep-128}
+ 70:           hypot fp16     ................Wimp pass	    0.50 @ {0x1.e84p-4, -0x1.618p-9}
+hypot passed
+ilogb...
+ 71:           ilogb fp32     ................Wimp pass
+ 72:           ilogb fp16     .Wimp pass
+ilogb passed
+isequal...
+ 73:         isequal fp32     ................Wimp pass
+ 74:         isequal fp16     ................Wimp pass
+isequal passed
+isfinite...
+ 75:        isfinite fp32     ................Wimp pass
+ 76:        isfinite fp16     .Wimp pass
+isfinite passed
+isgreater...
+ 77:       isgreater fp32     ................Wimp pass
+ 78:       isgreater fp16     ................Wimp pass
+isgreater passed
+isgreaterequal...
+ 79:  isgreaterequal fp32     ................Wimp pass
+ 80:  isgreaterequal fp16     ................Wimp pass
+isgreaterequal passed
+isinf...
+ 81:           isinf fp32     ................Wimp pass
+ 82:           isinf fp16     .Wimp pass
+isinf passed
+isless...
+ 83:          isless fp32     ................Wimp pass
+ 84:          isless fp16     ................Wimp pass
+isless passed
+islessequal...
+ 85:     islessequal fp32     ................Wimp pass
+ 86:     islessequal fp16     ................Wimp pass
+islessequal passed
+islessgreater...
+ 87:   islessgreater fp32     ................Wimp pass
+ 88:   islessgreater fp16     ................Wimp pass
+islessgreater passed
+isnan...
+ 89:           isnan fp32     ................Wimp pass
+ 90:           isnan fp16     .Wimp pass
+isnan passed
+isnormal...
+ 91:        isnormal fp32     ................Wimp pass
+ 92:        isnormal fp16     .Wimp pass
+isnormal passed
+isnotequal...
+ 93:      isnotequal fp32     ................Wimp pass
+ 94:      isnotequal fp16     ................Wimp pass
+isnotequal passed
+isordered...
+ 95:       isordered fp32     ................Wimp pass
+ 96:       isordered fp16     ................Wimp pass
+isordered passed
+isunordered...
+ 97:     isunordered fp32     ................Wimp pass
+ 98:     isunordered fp16     ................Wimp pass
+isunordered passed
+ldexp...
+ 99:           ldexp fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0}
+100:           ldexp fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0}
+ldexp passed
+lgamma...
+101:          lgamma fp32     ................Wimp pass	     inf @ -0x1p-70
+102:          lgamma fp16     .Wimp pass	     inf @ -inf
+lgamma passed
+lgamma_r...
+103:        lgamma_r fp32     ................Wimp pass	{     inf, 1} @ {0x1.008p-140, 0x0p+0}
+104:        lgamma_r fp16     .Wimp pass	{279183360.00, 1} @ {0x1p+0, 0x0p+0}
+lgamma_r passed
+log...
+105:             log fp32  rlx................Wimp pass	    1.00 @ 0x1.0002p+125
+106:             log fp32     ................Wimp pass	    1.24 @ 0x1.3774p-90
+107:             log fp16     .Wimp pass	    1.49 @ 0x1.6p+5
+log passed
+log2...
+108:            log2 fp32  rlx................Wimp pass	    0.58 @ 0x1.1322p+0
+109:            log2 fp32     ................Wimp pass	    0.58 @ 0x1.1322p+0
+110:            log2 fp16     .Wimp pass	    0.00 @ 0x0p+0
+log2 passed
+log10...
+111:           log10 fp32  rlx................Wimp pass	    0.56 @ 0x1.e00ap-1
+112:           log10 fp32     ................Wimp pass	    0.56 @ 0x1.e00ap-1
+113:           log10 fp16     .Wimp pass	    0.00 @ 0x0p+0
+log10 passed
+log1p...
+114:           log1p fp32     ................Wimp pass	    0.55 @ -0x1.2868p-4
+115:           log1p fp16     .Wimp pass	    0.00 @ 0x0p+0
+log1p passed
+logb...
+116:            logb fp32     ................Wimp pass	    0.00 @ 0x0p+0
+117:            logb fp16     .Wimp pass	    0.00 @ 0x0p+0
+logb passed
+mad...
+118:             mad fp32  rlx................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0, 0x0p+0}
+119:             mad fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0, 0x0p+0}
+120:             mad fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0, 0x0p+0}
+mad passed
+maxmag...
+121:          maxmag fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+122:          maxmag fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+maxmag passed
+minmag...
+123:          minmag fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+124:          minmag fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+minmag passed
+modf...
+125:            modf fp32     ................Wimp pass	{    0.00,     0.00} @ {0x0p+0, 0x0p+0}
+126:            modf fp16     .Wimp pass	{    0.00,     0.00} @ {0x0p+0, 0x0p+0}
+modf passed
+nan...
+127:             nan fp32     ................Wimp pass	    0.00 @ 0x0p+0
+128:             nan fp16     .Wimp pass	    0.00 @ 0x0p+0
+nan passed
+nextafter...
+129:       nextafter fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+130:       nextafter fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+nextafter passed
+pow...
+131:             pow fp32  rlx................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+132:             pow fp32     ................Wimp pass	   15.97 @ {0x1.63813ap-90, 0x1.9ea254p+0}
+133:             pow fp16     ................Wimp pass	    0.50 @ {0x1.c3cp+3, -0x1.908p-9}
+pow passed
+pown...
+134:            pown fp32     ................Wimp pass	    7.00 @ {-0x1.cp-147, 1}
+135:            pown fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0}
+pown passed
+powr...
+136:            powr fp32     ................Wimp pass	   15.99 @ {0x1.76125p+102, -0x1.69fbaep+0}
+137:            powr fp16     ................Wimp pass	    0.50 @ {0x1.46cp-12, 0x1.5d4p-12}
+powr passed
+remainder...
+138:       remainder fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+139:       remainder fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+remainder passed
+remquo...
+140:          remquo fp32     ................Wimp pass	{    0.00, 0} @ {0x0p+0, 0x0p+0}
+141:          remquo fp16     ................Wimp pass	{    0.00, 0} @ {0x0p+0, 0x0p+0}
+remquo passed
+rint...
+142:            rint fp32     ................Wimp pass	    0.00 @ 0x0p+0
+143:            rint fp16     .Wimp pass	    0.00 @ 0x0p+0
+rint passed
+rootn...
+144:           rootn fp32     ................Wimp pass	    7.00 @ {-0x1.cp-147, 1}
+145:           rootn fp16     ................Wimp pass	    0.50 @ {0x1.ffcp+15, 2}
+rootn passed
+round...
+146:           round fp32     ................Wimp pass	    0.00 @ 0x0p+0
+147:           round fp16     .Wimp pass	    0.00 @ 0x0p+0
+round passed
+rsqrt...
+148:           rsqrt fp32     ................Wimp pass	    0.75 @ 0x1.3e6ap+116
+149:           rsqrt fp16     .Wimp pass	    0.00 @ 0x0p+0
+rsqrt passed
+signbit...
+150:         signbit fp32     ................Wimp pass
+151:         signbit fp16     .Wimp pass
+signbit passed
+sin...
+152:             sin fp32  rlx................Wimp pass	    1.00 @ -0x1.225ap-7
+153:             sin fp32     ................Wimp pass	    2.11 @ -0x1.765cp+22
+154:             sin fp16     .Wimp pass	    0.00 @ 0x0p+0
+sin passed
+sincos...
+155:          sincos fp32  rlx................Wimp pass	{    0.00,     0.00} @ {0x1.0c5aaep-1, 0x1.c650fap-7}
+156:          sincos fp32     ................Wimp pass	{    2.17,     2.07} @ {0x1.d655b8p+22, 0x1.71f7a2p+22}
+157:          sincos fp16     .Wimp pass	{    0.00,     0.00} @ {0x0p+0, 0x0p+0}
+sincos passed
+sinh...
+158:            sinh fp32     ................Wimp pass	    2.12 @ 0x1.89aap+2
+159:            sinh fp16     .Wimp pass	    0.00 @ 0x0p+0
+sinh passed
+sinpi...
+160:           sinpi fp32  rlx................Wimp pass	16776607.00 @ -0x1.45fp-127
+161:           sinpi fp32     ................Wimp pass	    1.87 @ 0x1.4602p-6
+162:           sinpi fp16     .Wimp pass	    0.00 @ 0x0p+0
+sinpi passed
+sqrt...
+163:            sqrt fp32     ................Wimp pass	    1.78 @ 0x1.d7a2p+125
+164:            sqrt fp16     .Wimp pass	    1.03 @ 0x1.ep-13
+sqrt passed
+sqrt_cr...
+Correctly rounded divide and sqrt are not supported, skipping function.
+sqrt_cr passed
+tan...
+165:             tan fp32  rlx................Wimp pass	    4.00 @ 0x1.63fcp+106
+166:             tan fp32     ................Wimp pass	    3.21 @ 0x1.d8acp+22
+167:             tan fp16     .Wimp pass	    0.00 @ 0x0p+0
+tan passed
+tanh...
+168:            tanh fp32     ................Wimp pass	    2.00 @ -0x1.0a2cp+3
+169:            tanh fp16     .Wimp pass	    0.00 @ 0x0p+0
+tanh passed
+tanpi...
+170:           tanpi fp32     ................Wimp pass	    2.86 @ -0x1.5c0cp-2
+171:           tanpi fp16     .Wimp pass	    0.00 @ 0x0p+0
+tanpi passed
+tgamma...
+172:          tgamma fp32     ................Wimp pass	   15.99 @ -0x1.2d8ap+5
+173:          tgamma fp16     .Wimp pass	    0.00 @ 0x0p+0
+tgamma passed
+trunc...
+174:           trunc fp32     ................Wimp pass	    0.00 @ 0x0p+0
+175:           trunc fp16     .Wimp pass	    0.00 @ 0x0p+0
+trunc passed
+half_cos...
+176:        half_cos fp32     ................Wimp pass	    1.60 @ -0x1.61bap+11
+half_cos passed
+half_divide...
+177:     half_divide fp32     ................Wimp pass	 8191.94 @ {0x1.2e9d38p-14, 0x1.2e9dc8p+122}
+half_divide passed
+half_exp...
+178:        half_exp fp32     ................Wimp pass	 8179.60 @ -0x1.7914p+6
+half_exp passed
+half_exp2...
+179:       half_exp2 fp32     ................Wimp pass	 8192.00 @ -0x1.1p+7
+half_exp2 passed
+half_exp10...
+180:      half_exp10 fp32     ................Wimp pass	 8185.40 @ -0x1.4786p+5
+half_exp10 passed
+half_log...
+181:        half_log fp32     ................Wimp pass	    1.24 @ 0x1.3774p-90
+half_log passed
+half_log2...
+182:       half_log2 fp32     ................Wimp pass	    0.58 @ 0x1.1322p+0
+half_log2 passed
+half_log10...
+183:      half_log10 fp32     ................Wimp pass	    0.56 @ 0x1.e00ap-1
+half_log10 passed
+half_powr...
+184:       half_powr fp32     ................Wimp pass	 8180.69 @ {0x1.e3caacp+4, -0x1.ba70e4p+4}
+half_powr passed
+half_recip...
+185:      half_recip fp32     ................Wimp pass	 8188.00 @ -0x1.002p-128
+half_recip passed
+half_rsqrt...
+186:      half_rsqrt fp32     ................Wimp pass	    1.71 @ 0x1.0f12p+124
+half_rsqrt passed
+half_sin...
+187:        half_sin fp32     ................Wimp pass	    1.52 @ -0x1.e0bap+6
+half_sin passed
+half_sqrt...
+188:       half_sqrt fp32     ................Wimp pass	    1.78 @ 0x1.d7a2p+121
+half_sqrt passed
+half_tan...
+189:        half_tan fp32     ................Wimp pass	    2.46 @ -0x1.70dep+14
+half_tan passed
+add...
+190:             add fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+191:             add fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+add passed
+subtract...
+192:        subtract fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+193:        subtract fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+subtract passed
+negation...
+194:        negation fp32     ................Wimp pass	    0.00 @ 0x0p+0
+negation passed
+reciprocal...
+195:      reciprocal fp32  rlx................Wimp pass	    1.00 @ -0x1.0036p+117
+196:      reciprocal fp32     ................Wimp pass	    0.75 @ -0x1.f1b6p+79
+197:      reciprocal fp16     .Wimp pass	    0.00 @ 0x0p+0
+reciprocal passed
+divide...
+198:          divide fp32  rlx................Wimp pass	    2.00 @ {0x1.98bfap-6, 0x1.db1bc4p+58}
+199:          divide fp32     ................Wimp pass	    1.94 @ {0x1.f3be66p+70, 0x1.f5575ep+60}
+200:          divide fp16     ................Wimp pass	    0.50 @ {-0x1.75cp-11, 0x1.ccp+10}
+divide passed
+divide_cr...
+Correctly rounded divide and sqrt are not supported, skipping function.
+divide_cr passed
+multiply...
+201:        multiply fp32     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+202:        multiply fp16     ................Wimp pass	    0.00 @ {0x0p+0, 0x0p+0}
+multiply passed
+assignment...
+203:      assignment fp32     ................Wimp pass	    0.00 @ 0x0p+0
+204:      assignment fp16     .Wimp pass	    0.00 @ 0x0p+0
+assignment passed
+not...
+205:             not fp32     ................Wimp pass
+206:             not fp16     .Wimp pass
+not passed
+erf...
+207:             erf fp32     ................Wimp pass	    0.79 @ -0x1.b91p-5
+208:             erf fp16     .Wimp pass	    0.00 @ 0x0p+0
+erf passed
+erfc...
+209:            erfc fp32     ................Wimp pass	   15.96 @ 0x1.3c34p+3
+210:            erfc fp16     .Wimp pass	    0.00 @ 0x0p+0
+erfc passed
+PASSED 210 of 210 sub-tests.
+PASSED 106 of 106 tests.
+ThreadPool: thread 4 exiting.
+ThreadPool: thread 2 exiting.
+ThreadPool: thread 0 exiting.
+ThreadPool: thread 6 exiting.
+ThreadPool: thread 1 exiting.
+ThreadPool: thread 7 exiting.
+ThreadPool: thread 5 exiting.
+ThreadPool: thread 3 exiting.
+Thread pool exited in a orderly fashion.
+*** ResumeSleep() is not implemented on this platform.

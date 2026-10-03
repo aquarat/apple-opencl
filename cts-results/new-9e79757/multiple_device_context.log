@@ -1,0 +1,38 @@
+=== Rusticl warning: Patched Mesa libclc not detected. Upstream libclc may contain known bugs or breaking changes and isn't guaranteed to work reliably. Please visit https://gitlab.freedesktop.org/karolherbst/mesa-libclc for more information. ===
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+context_multiple_contexts_same_device...
+Successfully created all 200 contexts.
+Tring to do it 5 more times.....Done.
+context_multiple_contexts_same_device passed
+context_two_contexts_same_device...
+Successfully created all 2 contexts.
+Tring to do it 5 more times.....Done.
+context_two_contexts_same_device passed
+context_three_contexts_same_device...
+Successfully created all 3 contexts.
+Tring to do it 5 more times.....Done.
+context_three_contexts_same_device passed
+context_four_contexts_same_device...
+Successfully created all 4 contexts.
+Tring to do it 5 more times.....Done.
+context_four_contexts_same_device passed
+two_devices...
+WARNING: two device test unable to get two devices via CL_DEVICE_TYPE_ALL (got 1 devices). Skipping test...
+two_devices passed
+max_devices...
+Testing with 1 devices.Testing with 1 queues on 1 devices, 32 kernel executions.
+Device 0 is "Apple M1 (G13G B1)".
+Testing with 1 queues.
+max_devices passed
+hundred_queues...
+Testing with 100 queues on 1 devices, 3200 kernel executions.
+Device 0 is "Apple M1 (G13G B1)".
+Testing with 100 queues.
+hundred_queues passed
+PASSED 7 of 7 tests.

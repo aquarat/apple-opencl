@@ -1,0 +1,409 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+
+Compute Device info:
+	Processing with 1 devices
+	Device Frequency: 1278 MHz
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+sizeof( void*) = 8
+ARCH:	aarch64
+system name = Linux
+node name   = <host>
+release     = 7.1.13-402.asahi.fc44.aarch64+16k
+version     = #1 SMP PREEMPT_DYNAMIC Tue Sep  8 22:03:08 UTC 2026
+machine     = aarch64
+int...
+0)testing printf("%5d",10)
+1)testing printf("%-5d",10)
+2)testing printf("%05d",10)
+3)testing printf("%+5d",10)
+4)testing printf("%-+5d",10)
+5)testing printf("%.5i",100)
+6)testing printf("%6.5i",100)
+7)testing printf("%-06i",100)
+8)testing printf("%06.5i",100)
+9)testing printf("% 10d",42)
+int passed
+long...
+0)testing printf("%5ld",10000000000L)
+1)testing printf("%-15ld",-10000000000L)
+2)testing printf("%015ld",10000000000L)
+3)testing printf("%+15ld",-10000000000L)
+4)testing printf("%-+15ld",10000000000L)
+5)testing printf("%.15li",10000000000L)
+6)testing printf("%-+16.15li",-10000000000L)
+long passed
+half...
+0)testing printf("%f",1.234h)
+1)testing printf("%4.2f",1.2345h)
+2)testing printf("%.0f",0.1h)
+3)testing printf("%.0f",0.6h)
+4)testing printf("%0f",0.6h)
+5)testing printf("%4g",5.678h)
+6)testing printf("%4.2g",5.678h)
+7)testing printf("%4G",0.000062h)
+8)testing printf("%-#20.15e",65504.0h)
+9)testing printf("%+#21.15E",-65504.0h)
+10)testing printf("% 10.2f",1.25h)
+11)testing printf("%08.2f",3.14h)
+half passed
+half_limits...
+0)testing printf("%f",1.0h/0.0h)
+0)testing printf("%e",1.0h/0.0h)
+0)testing printf("%g",1.0h/0.0h)
+0)testing printf("%a",1.0h/0.0h)
+1)testing printf("%f",nan((ushort)0))
+1)testing printf("%e",nan((ushort)0))
+1)testing printf("%g",nan((ushort)0))
+1)testing printf("%a",nan((ushort)0))
+2)testing printf("%f",acospi(2.0h))
+2)testing printf("%e",acospi(2.0h))
+2)testing printf("%g",acospi(2.0h))
+2)testing printf("%a",acospi(2.0h))
+3)testing printf("%F",1.0h/0.0h)
+3)testing printf("%E",1.0h/0.0h)
+3)testing printf("%G",1.0h/0.0h)
+3)testing printf("%A",1.0h/0.0h)
+4)testing printf("%F",nan((ushort)0))
+4)testing printf("%E",nan((ushort)0))
+4)testing printf("%G",nan((ushort)0))
+4)testing printf("%A",nan((ushort)0))
+5)testing printf("%F",acospi(2.0h))
+5)testing printf("%E",acospi(2.0h))
+5)testing printf("%G",acospi(2.0h))
+5)testing printf("%A",acospi(2.0h))
+half_limits passed
+float...
+0)testing printf("%f",10.3456f)
+1)testing printf("%.1f",10.3456f)
+2)testing printf("%.2f",10.3456f)
+3)testing printf("%8.3f",10.3456f)
+4)testing printf("%08.2f",10.3456f)
+5)testing printf("%-8.2f",10.3456f)
+6)testing printf("%+8.2f",-10.3456f)
+7)testing printf("%.0f",0.1f)
+8)testing printf("%.0f",0.6f)
+9)testing printf("%0f",0.6f)
+10)testing printf("%4g",12345.6789f)
+11)testing printf("%4.2g",12345.6789f)
+12)testing printf("%4G",0.0000023f)
+13)testing printf("%4G",0.023f)
+14)testing printf("%-#20.15e",789456128.f)
+15)testing printf("%+#21.15E",789456128.f)
+16)testing printf("%.6a",0.5f)
+17)testing printf("%10.2a",1.5f)
+18)testing printf("% 10.2f",1.25f)
+19)testing printf("%08.2f",3.14f)
+float passed
+float_limits...
+0)testing printf("%f",1.0f/0.0f)
+0)testing printf("%e",1.0f/0.0f)
+0)testing printf("%g",1.0f/0.0f)
+0)testing printf("%a",1.0f/0.0f)
+1)testing printf("%f",nan(0U))
+1)testing printf("%e",nan(0U))
+1)testing printf("%g",nan(0U))
+1)testing printf("%a",nan(0U))
+2)testing printf("%f",acospi(2.0f))
+2)testing printf("%e",acospi(2.0f))
+2)testing printf("%g",acospi(2.0f))
+2)testing printf("%a",acospi(2.0f))
+3)testing printf("%F",1.0f/0.0f)
+3)testing printf("%E",1.0f/0.0f)
+3)testing printf("%G",1.0f/0.0f)
+3)testing printf("%A",1.0f/0.0f)
+4)testing printf("%F",nan(0U))
+4)testing printf("%E",nan(0U))
+4)testing printf("%G",nan(0U))
+4)testing printf("%A",nan(0U))
+5)testing printf("%F",acospi(2.0f))
+5)testing printf("%E",acospi(2.0f))
+5)testing printf("%G",acospi(2.0f))
+5)testing printf("%A",acospi(2.0f))
+float_limits passed
+double...
+Skipping double because cl_khr_fp64 extension is not supported.
+double test not supported
+double_limits...
+Skipping double because cl_khr_fp64 extension is not supported.
+double_limits test not supported
+octal...
+0)testing printf("%o",10)
+1)testing printf("%.5o",10)
+2)testing printf("%#o",100000000)
+3)testing printf("%04.5o",10)
+4)testing printf("%010o",10)
+octal passed
+unsigned...
+0)testing printf("%u",10)
+1)testing printf("%.0u",0)
+unsigned passed
+hexadecimal...
+0)testing printf("%#x",0xABCDEF)
+1)testing printf("%#X",0xABCDEF)
+2)testing printf("%#X",0)
+3)testing printf("%8x",399)
+4)testing printf("%04x",399)
+hexadecimal passed
+char...
+0)testing printf("%4c",'1')
+1)testing printf("%-4c",'1')
+2)testing printf("%c",66)
+char passed
+string...
+0)testing printf("")
+1)testing printf("","foo")
+2)testing printf("%s","")
+3)testing printf("%4s","foo")
+4)testing printf("%.1s","foo")
+5)testing printf("%s","%%")
+6)testing printf("%s","foo%%bar%%bar%%foo")
+7)testing printf("%%%s%%","foo")
+8)testing printf("%%s%s","foo")
+9)testing printf("%s","\"%%\"")
+10)testing printf("%s","\'%%\'")
+11)testing printf("%s","foo\tfoo")
+12)testing printf("%s","foo\nfoo")
+13)testing printf("%s","foo\0foo")
+14)testing printf("%s"," !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~")
+string passed
+format_string...
+0)testing printf("%%")
+1)testing printf("\"%%\"")
+2)testing printf("'%%'")
+3)testing printf("'foo%%bar%%bar%%foo'")
+4)testing printf("foo\t\t\tfoo")
+5)testing printf("foo\nfoo")
+6)testing printf(" !\"#$%%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~")
+format_string passed
+vector...
+0)testing printf("%2.2v4hlf",(1.0f,2.0f,3.0f,4.0f))
+1)testing printf("%+v4hhi",(1,-2,3,-4))
+verifyOutputBuffer failed with kernel: 
+__kernel void test14(void)
+{
+char4 tmp = (char4)(1,-2,3,-4);   printf("%+v4hhi\n",tmp);}
+
+ expected: +1,-2,+3,-4
+ got:      +1,+254,+3,+252
+2)testing printf("%#v2hhx",(0xFA,0xFB))
+3)testing printf("%v2hd",(1234,-5678))
+verifyOutputBuffer failed with kernel: 
+__kernel void test14(void)
+{
+short2 tmp = (short2)(1234,-5678);   printf("%v2hd\n",tmp);}
+
+ expected: 1234,-5678
+ got:      1234,59858
+4)testing printf("%#v2hx",(0x1234,0x8765))
+5)testing printf("%#v2hlx",(0x12345678,0x87654321))
+6)testing printf("%v2ld",(12345678,98765432))
+7)testing printf("%v3lu",(1UL,4294967296UL,18446744073709551615UL))
+verifyOutputBuffer failed with kernel: 
+__kernel void test14(void)
+{
+ulong3 tmp = (ulong3)(1UL,4294967296UL,18446744073709551615UL);   printf("%v3lu\n",tmp);}
+
+ expected: 1,4294967296,18446744073709551615
+ got:      1,0,4294967295
+Skipping double because cl_khr_fp64 extension is not supported.
+9)testing printf("%2.2v4hf",(1.0h,2.0h,3.0h,4.0h))
+10)testing printf("%.2v3hle",(1234.25f,987654.5f,0.0005f))
+11)testing printf("%.1v4hla",(0.25f,0.5f,1.f,1.5f))
+12)testing printf("%v8hlg",(1.f,2.f,3.f,4.f,1.5f,3.14f,2.5f,3.5f))
+13)testing printf("%v16hlo",(1,2,3,4,5,6,7,8,9,0,32,64,128,256,512,1024))
+14)testing printf("%+v8hli",(1,-2,3,-4,5,-6,7,-8))
+15)testing printf("%05v4hlu",(512,1024,262144,1048576))
+vector FAILED
+address_space...
+0)testing kernel //argument __global int* x 
+   printf("%d\n",*x)
+1)testing kernel //argument constant int* x 
+   printf("%d\n",*x)
+2)testing kernel //variable local int x;
+ x= (int)3;
+ 
+   printf("%+d\n",x)
+3)testing kernel //variable private int x;
+ x = (int)-1;
+ 
+   printf("%i\n",x)
+4)testing kernel //argument __global void* x,__global intptr_t*  xAddr 
+   printf("%p\n",x)
+address_space passed
+mixed_format_random...
+0) testing printf("13dAZI, %e, %X, $vVc@R:J5\n", 58345.011719f, 2061486254)
+1) testing printf("2t, %d, %o, @$	\n", -718892301, 602801999)
+2) testing printf("<F[Kp-.|C, %i, %.13A, %.13A, DZ\n", -237645185, -78818.476562f, -47088.882812f)
+3) testing printf("VG)j IQ8, %e, %.13A, %x, %i, %.13A, ort-K\n", -10010.005859f, -12593.606445f, 426405863, -1431226077, -65818.085938f)
+4) testing printf("Y,P.Jyfo, %X, %o, qCH>\n", -1567410188, -1489888412)
+5) testing printf("g#CeW|, %u, %i, %.13A, 5@\n", 593491249, -216590685, 64198.652344f)
+6) testing printf("snwlQj	., %X, %d, /f\n", -1119854391, 1897133962)
+7) testing printf("Oj-3, %x, %.13a, %o, %e, Q{^[d\n", -1320822190, 73020.515625f, -2047634021, 84231.515625f)
+8) testing printf("1$#, %G, %g, %.13F, %d, G(,&G{\n", -63361.726562f, 10564.290039f, 65788.000000f, 628962584)
+9) testing printf("`(gxo[*, %.13f, %d, %.13f, %i, Awp|\n", -55383.671875f, -1374150851, 69281.734375f, 499083403)
+10) testing printf("&Yy7yH, %x, %u, %.13a, %d, @@6j4-N:\n", 990131795, 1820443552, -5026.493652f, 1295253973)
+11) testing printf("yHOjP.&ZU, %.13f, %.13a, %x, %G, ,8@5K/I\n", 30420.648438f, -55747.464844f, 1578666218, 96808.453125f)
+12) testing printf("oU;|h4$L, %X, %X, %.13F, %X, pz>3n3+v\n", 716604633, -652799693, -17720.654297f, 1748838947)
+13) testing printf("AZ{e/.V=;, %i, %i, %g, %e, %.13A, k^B\n", 1546093991, -1073745055, 4207.326660f, -32202.980469f, -96295.640625f)
+14) testing printf("zH, %x, %.13a, D+{gy\n", -929240879, 24295.673828f)
+15) testing printf("TS.x2, %G, %X, %x, %o, %u, y[\n", 50168.847656f, 1339793554, 912210260, 799692869, -1848667604)
+16) testing printf(":L{=U_), %i, %o, %i, %.13a, %.13a, - 8(<qE\n", -1964952791, 288834965, 2055555570, 7315.836914f, 42939.390625f)
+17) testing printf("r,Y, %.13A, %u, wt|[\n", -35996.566406f, -1521343560)
+18) testing printf("&<qGQ, %o, %.13F, xNZ^knc\n", 2076224203, 89474.125000f)
+19) testing printf("q=, %u, %u, %i, %.13A, ~g!K\n", 891077203, -1157742019, 1991041280, -62708.355469f)
+20) testing printf("BZ-}	#&, %E, %o, %.13a, Phb7w\n", -59026.847656f, 2096185781, 44416.128906f)
+21) testing printf("pnZvf<, %u, %e, YOY@ 3\n", 1232290737, -79941.210938f)
+22) testing printf("+pbcpX2, %x, %d, OvM\n", 2085754632, -912499503)
+23) testing printf("~yS779m+G, %d, %i, %x, %i, W={FgM\n", -648782495, -973557353, 1491356577, -943060361)
+24) testing printf("4@]8S, %u, %u, =fErXkC&\n", 963434282, 1744274212)
+25) testing printf(" w`^<$, %d, %u, %X, %g, %g, u2\n", 1296353734, 997438043, 1397197139, 45118.871094f, 6693.134766f)
+26) testing printf("e=/O#, %u, %e, %e, %g, %E, qht~j\n", -731852797, 45408.859375f, -48772.085938f, -88925.132812f, -2413.083984f)
+27) testing printf("4~b, %d, %.13F, %i, i7$^>Vu\n", 370986307, 39399.441406f, -655947520)
+28) testing printf("d|<}:!t, %u, %.13a, vo_ O\n", -1223297959, -84608.710938f)
+29) testing printf("+2{?p, %x, %x, FhTEV/S#;\n", -1368408741, -1979019582)
+30) testing printf("	fZA[H, %x, %d, %.13F, %g, r<G+d>9\n", -1184690982, 401405302, 38005.003906f, 16039.420898f)
+31) testing printf("t{B6/7u[, %d, %o, %e, %g, %E, *Vux~39C\n", 418624821, -1822134905, -68473.546875f, 63104.761719f, -81108.414062f)
+32) testing printf("/Qp={dG:, %o, %.13a, %e, %u, %i, tQ5`1D\n", 1682657904, -62953.535156f, 7254.912109f, 427842850, 422959804)
+33) testing printf("r)I9snrK, %i, %E, %i, !BMaJK@\n", 949878884, 54217.812500f, 51695185)
+34) testing printf("att*Y, %X, %o, %g, %G, %.13A, lB7u*EF\n", -45484671, 1343265164, -42320.300781f, 36714.589844f, -50787.363281f)
+35) testing printf("y|hey:o, %u, %i, %g, bLCpHjI]G\n", 197599896, 1928798632, 62993.296875f)
+36) testing printf("BW=]$G]|l, %i, %G, %.13f, %X, %o, 7r\n", -465906531, 37953.652344f, 83345.406250f, -508007812, 570436082)
+37) testing printf("cuf9c, %o, %E, fpes,,\n", 1021093357, 11072.255859f)
+38) testing printf("|`-U9, %i, %g, %g, %.13f, [g~\n", 566300180, -9635.663086f, 22349.679688f, -69529.054688f)
+39) testing printf("C`QW(LX*, %.13f, %X, %e, %x, ^e3\n", -70304.382812f, -443407456, 15982.484375f, 1166739762)
+40) testing printf("vy, %u, %.13f, u*!h\n", 1602172539, -94695.484375f)
+41) testing printf("^(K{C, %g, %.13F, %.13f, %X, %u, 96vL.+\n", -30304.802734f, -22634.574219f, 24476.884766f, -460153150, 1467582223)
+42) testing printf("oOfsaIp{, %E, %g, %.13F, %X, %d, joh\n", -95094.515625f, 84422.296875f, 541.913757f, 104424392, -402988875)
+43) testing printf("?#B4s, %x, %.13F, %d, %.13f, RlC\n", -1184775970, -99459.359375f, 1953608292, 17747.927734f)
+44) testing printf("#z)YgO8k, %o, %.13a, ] }FIDS\n", 1645414375, -81822.851562f)
+45) testing printf("gGvbBf, %E, %X, Akd(q\n", 24338.578125f, -333512886)
+46) testing printf("].tacb, %e, %i, O]{;,\n", -50693.039062f, 1288614380)
+47) testing printf("[gPrL=xU, %X, %.13a, <-y1y!!Ll\n", 1864684015, -87784.289062f)
+48) testing printf("/#Cxd{g	, %e, %.13F, ByKARA7qW\n", 94044.359375f, -34402.394531f)
+49) testing printf("`m7i}Z=, %.13F, %E, %.13F, %d, %G, k~x)gkw\n", -32504.523438f, 18556.056641f, -80639.210938f, -1493321669, 31835.294922f)
+50) testing printf("7bx, %.13A, %X, aZ`kqF.T\n", 91386.593750f, -1296012902)
+51) testing printf("i]q, %.13f, %E, %X, A<v\n", 4399.250977f, -64117.980469f, 503887638)
+52) testing printf("d_IuU8}, %u, %g, %G, %x, %E, $1R|J\n", 634833410, -62187.468750f, 72412.515625f, 387547707, 16216.383789f)
+53) testing printf("/kC<d_u), %i, %e, %.13A, %o, %e, Dh!Y4\n", 429318541, -76536.882812f, -8348.199219f, 1717180074, -75231.109375f)
+54) testing printf("#z99DIo, %d, %i, %x, %d, ;i/\n", -369404917, -1175350175, 1358154502, 1739614701)
+55) testing printf("+27X]|xn, %d, %.13A, %e, %i, MMRIX\n", -475507353, 73433.437500f, -99758.484375f, 1736213105)
+56) testing printf("|Q_6;, %i, %d, %o, %x, sm}Eg\n", 957192806, -1987371438, 950890499, 107136797)
+57) testing printf("Ed(&4c&a, %e, %.13a, %x, #qhQ$\n", -60080.769531f, -14611.314453f, 1500834641)
+58) testing printf("<>7J&K*[|, %.13f, %e, %G, _oQu}MM8w\n", 212.633209f, -49194.957031f, -47819.101562f)
+59) testing printf("x+, %i, %X, %E, ^VPuVo8\n", -1780555693, 16580089, 15802.241211f)
+60) testing printf("xB`@(_, %x, %e, >R]\n", -1934880302, -16878.347656f)
+61) testing printf("`yM~~anrO, %.13A, %i, %E, %g, %e, wmRK^.b}G\n", 54936.691406f, -34830771, 79069.015625f, 58375.921875f, -53785.988281f)
+62) testing printf("55T, %.13A, %.13f, 6;=Lju^UU\n", -12437.150391f, -14619.134766f)
+63) testing printf("R/4<*!XD, %i, %.13A, RI3zfRU\n", 1220140645, -76494.875000f)
+mixed_format_random passed
+length_specifier...
+0)testing printf("%hd",32767)
+1)testing printf("%hhd",127)
+2)testing printf("%ld",9223372036854775807L)
+3)testing printf("%hd",-32767)
+4)testing printf("%hhd",-128)
+5)testing printf("%ld",-9223372036854775807L)
+6)testing printf("%hx",32767)
+7)testing printf("%hhx",127)
+8)testing printf("%lx",9223372036854775807L)
+9)testing printf("%hx",-32767)
+10)testing printf("%hhx",-128)
+11)testing printf("%lx",-9223372036854775807L)
+12)testing printf("%ho",32767)
+13)testing printf("%hho",127)
+14)testing printf("%lo",9223372036854775807L)
+15)testing printf("%ho",-32767)
+16)testing printf("%hho",-128)
+17)testing printf("%lo",-9223372036854775807L)
+length_specifier passed
+size_t...
+0)testing printf("%5zd",(size_t)10)
+1)testing printf("%-5zd",(size_t)10)
+2)testing printf("%05zd",(size_t)10)
+3)testing printf("%+5zd",(size_t)10)
+4)testing printf("%-+5zd",(size_t)10)
+5)testing printf("%.5zi",(size_t)100)
+6)testing printf("%6.5zi",(size_t)100)
+7)testing printf("%-06zi",(size_t)100)
+8)testing printf("%06.5zi",(size_t)100)
+9)testing printf("% 10zd",(size_t)42)
+10)testing printf("%zo",(size_t)10)
+11)testing printf("%.5zo",(size_t)10)
+12)testing printf("%#zo",(size_t)100000000)
+13)testing printf("%04.5zo",(size_t)10)
+14)testing printf("%010zo",(size_t)10)
+15)testing printf("%zu",(size_t)10)
+16)testing printf("%.0zu",(size_t)0)
+17)testing printf("%#zx",(size_t)11259375)
+18)testing printf("%#zX",(size_t)11259375)
+19)testing printf("%#zX",(size_t)0)
+20)testing printf("%8zx",(size_t)399)
+21)testing printf("%04zx",(size_t)399)
+CL_DEVICE_ADDRESS_BITS is 64, testing 64-bit size_t...
+0)testing printf("%5zd",(size_t)10000000000L)
+1)testing printf("%-15zd",(size_t)-10000000000L)
+2)testing printf("%015zd",(size_t)10000000000L)
+3)testing printf("%+15zd",(size_t)-10000000000L)
+4)testing printf("%-+15zd",(size_t)10000000000L)
+5)testing printf("%.15zi",(size_t)10000000000L)
+6)testing printf("%-+16.15zi",(size_t)-10000000000L)
+7)testing printf("%5zu",(size_t)10000000000L)
+8)testing printf("%-15zu",(size_t)10000000000L)
+9)testing printf("%015zu",(size_t)10000000000L)
+10)testing printf("%+15zu",(size_t)10000000000L)
+11)testing printf("%-+15zu",(size_t)10000000000L)
+12)testing printf("%.15zu",(size_t)10000000000L)
+13)testing printf("%-+16.15zu",(size_t)10000000000L)
+size_t passed
+ptrdiff_t...
+0)testing printf("%5td",(ptrdiff_t)10)
+1)testing printf("%-5td",(ptrdiff_t)10)
+2)testing printf("%05td",(ptrdiff_t)10)
+3)testing printf("%+5td",(ptrdiff_t)10)
+4)testing printf("%-+5td",(ptrdiff_t)10)
+5)testing printf("%.5ti",(ptrdiff_t)100)
+6)testing printf("%6.5ti",(ptrdiff_t)100)
+7)testing printf("%-06ti",(ptrdiff_t)100)
+8)testing printf("%06.5ti",(ptrdiff_t)100)
+9)testing printf("% 10td",(ptrdiff_t)42)
+10)testing printf("%to",(ptrdiff_t)10)
+11)testing printf("%.5to",(ptrdiff_t)10)
+12)testing printf("%#to",(ptrdiff_t)100000000)
+13)testing printf("%04.5to",(ptrdiff_t)10)
+14)testing printf("%010to",(ptrdiff_t)10)
+15)testing printf("%tu",(ptrdiff_t)10)
+16)testing printf("%.0tu",(ptrdiff_t)0)
+17)testing printf("%#tx",(ptrdiff_t)11259375)
+18)testing printf("%#tX",(ptrdiff_t)11259375)
+19)testing printf("%#tX",(ptrdiff_t)0)
+20)testing printf("%8tx",(ptrdiff_t)399)
+21)testing printf("%04tx",(ptrdiff_t)399)
+CL_DEVICE_ADDRESS_BITS is 64, testing 64-bit ptrdiff_t...
+0)testing printf("%5td",(ptrdiff_t)10000000000L)
+1)testing printf("%-15td",(ptrdiff_t)-10000000000L)
+2)testing printf("%015td",(ptrdiff_t)10000000000L)
+3)testing printf("%+15td",(ptrdiff_t)-10000000000L)
+4)testing printf("%-+15td",(ptrdiff_t)10000000000L)
+5)testing printf("%.15ti",(ptrdiff_t)10000000000L)
+6)testing printf("%-+16.15ti",(ptrdiff_t)-10000000000L)
+7)testing printf("%5tu",(ptrdiff_t)10000000000L)
+8)testing printf("%-15tu",(ptrdiff_t)10000000000L)
+9)testing printf("%015tu",(ptrdiff_t)10000000000L)
+10)testing printf("%+15tu",(ptrdiff_t)10000000000L)
+11)testing printf("%-+15tu",(ptrdiff_t)10000000000L)
+12)testing printf("%.15tu",(ptrdiff_t)10000000000L)
+13)testing printf("%-+16.15tu",(ptrdiff_t)10000000000L)
+ptrdiff_t passed
+buffer_size...
+buffer_size passed
+return_value...
+printf return value test
+return_value passed
+FAILED 1 of 20 tests.

@@ -1,0 +1,201 @@
+=== Rusticl warning: Patched Mesa libclc not detected. Upstream libclc may contain known bugs or breaking changes and isn't guaranteed to work reliably. Please visit https://gitlab.freedesktop.org/karolherbst/mesa-libclc for more information. ===
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+atomic_add...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_add passed
+atomic_sub...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_sub passed
+atomic_xchg...
+    Testing atom_ functions...
+	global int32 ...	(thread count 1024, group size 1024)
+	global uint32...	(thread count 1024, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 1024, group size 1024)
+	global uint32...	(thread count 1024, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	global float...	(thread count 1024, group size 1024)
+	local float ...	(thread count 1024, group size 1024)
+atomic_xchg passed
+atomic_min...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_min passed
+atomic_max...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_max passed
+atomic_inc...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_inc passed
+atomic_dec...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_dec passed
+atomic_cmpxchg...
+    Testing atom_ functions...
+	global int32 ...	(thread count 1024, group size 1024)
+	global uint32...	(thread count 1024, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 1024, group size 1024)
+	global uint32...	(thread count 1024, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_cmpxchg passed
+atomic_and...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_and passed
+atomic_or...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_or passed
+atomic_xor...
+    Testing atom_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+	Global int64 not supported
+	Local int64 not supported
+    Testing atomic_ functions...
+	global int32 ...	(thread count 16384, group size 1024)
+	global uint32...	(thread count 16384, group size 1024)
+	local int32  ...	(thread count 1024, group size 1024)
+	local uint32 ...	(thread count 1024, group size 1024)
+atomic_xor passed
+atomic_add_index...
+Execute global_threads:2048 local_threads:1024
+add_index_test passed. Each thread used exactly one index.
+atomic_add_index passed
+atomic_add_index_bin...
+add_index_bin_test with 2048 elements:
+Execute global_threads:2048 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 4096 elements:
+Execute global_threads:4096 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 8192 elements:
+Execute global_threads:8192 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 16384 elements:
+Execute global_threads:16384 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 32768 elements:
+Execute global_threads:32768 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 65536 elements:
+Execute global_threads:65536 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 131072 elements:
+Execute global_threads:131072 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 262144 elements:
+Execute global_threads:262144 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 524288 elements:
+Execute global_threads:524288 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+add_index_bin_test with 1048576 elements:
+Execute global_threads:1048576 local_threads:1024
+add_index_bin_test passed. Each item was put in the correct bin in parallel.
+atomic_add_index_bin passed
+PASSED 13 of 13 tests.

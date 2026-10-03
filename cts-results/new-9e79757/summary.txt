@@ -1,0 +1,27 @@
+label=new-9e79757 driver=local ASAHI_PERFTEST= date=2026-10-02T22:45:28+01:00
+mesa=9e79757
+api                        rc=0       6s  PASSED 152 of 152 tests.
+basic                      rc=1     655s  FAILED 1 of 108 tests.
+buffers                    rc=0      14s  PASSED 102 of 102 tests.
+events                     rc=0       6s  PASSED 30 of 30 tests.
+atomics                    rc=0       1s  PASSED 13 of 13 tests.
+c11_atomics                rc=0       3s  PASSED 33 of 33 tests.
+workgroups                 rc=0       0s  no summary line
+profiling                  rc=0       1s  PASSED 33 of 33 tests.
+mem_host_flags             rc=0       0s  PASSED 9 of 9 tests.
+multiple_device_context    rc=0       5s  PASSED 7 of 7 tests.
+non_uniform_work_group     rc=0       1s  no summary line
+printf                     rc=1       1s  FAILED 1 of 20 tests.
+select                     rc=0       2s  PASSED 22 of 22 tests.
+relationals                rc=0      36s  PASSED 17 of 17 tests.
+geometrics                 rc=0       2s  PASSED 8 of 8 tests.
+commonfns                  rc=1       2s  FAILED 1 of 19 tests.
+vectors                    rc=0       9s  PASSED 9 of 9 tests.
+half                       rc=0      66s  PASSED 13 of 13 tests.
+subgroups                  rc=0       7s  PASSED 12 of 12 tests.
+generic_address_space      rc=0       0s  no summary line
+computeinfo                rc=0       0s  PASSED 4 of 4 tests.
+device_timer               rc=0       5s  PASSED 2 of 2 tests.
+compiler                   rc=0      16s  PASSED 75 of 75 tests.
+integer_ops                rc=0     466s  PASSED 67 of 67 tests.
+gpu faults/timeouts during run: 0

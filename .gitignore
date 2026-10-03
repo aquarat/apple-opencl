@@ -1,0 +1,25 @@
+# Sources and builds fetched or produced locally
+mesa/
+mesa-libclc/
+libclc-install/
+install/
+install-dev/
+build-logs/
+cts-src/
+cts-build/
+cts-spirv-headers/
+.icd/
+.venv/
+*.o
+
+# Benchmark and test binaries (sources are tracked)
+bench/*
+!bench/*.c
+tests/*
+!tests/*.c
+
+# Workload inputs and outputs
+workloads/darktable/*.ARW
+workloads/darktable/cfg*/
+workloads/darktable/*.png
+workloads/darktable/*.jpg

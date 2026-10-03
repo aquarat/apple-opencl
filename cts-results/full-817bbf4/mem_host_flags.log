@@ -1,0 +1,926 @@
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+mem_host_read_only_buffer...
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+mem_host_read_only_buffer passed
+mem_host_read_only_subbuffer...
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_read_only_buffer_RW
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_read_only_buffer_RW_Mapping
+Test succeeded
+
+mem_host_read_only_subbuffer passed
+mem_host_write_only_buffer...
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+mem_host_write_only_buffer passed
+mem_host_write_only_subbuffer...
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+test_mem_host_write_only_buffer_RW
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Rect
+Test succeeded
+
+test_mem_host_write_only_buffer_RW_Mapping
+Test succeeded
+
+mem_host_write_only_subbuffer passed
+mem_host_no_access_buffer...
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+mem_host_no_access_buffer passed
+mem_host_no_access_subbuffer...
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Rect
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_buffer_RW_Mapping
+Test succeeded
+
+Test succeeded
+
+mem_host_no_access_subbuffer passed
+mem_host_read_only_image...
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image  ... 
+ Test succeeded
+
+test_mem_host_read_only_RW_Image_Mapping  ... 
+ Test succeeded
+
+mem_host_read_only_image passed
+mem_host_write_only_image...
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+ test_MEM_HOST_WRITE_ONLY_Image_RW  ... 
+ Test succeeded
+
+test_MEM_HOST_WRITE_ONLY_Image_RW_Mapping  ... 
+ Test succeeded
+
+mem_host_write_only_image passed
+mem_host_no_access_image...
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW  ... 
+Test succeeded
+
+Test succeeded
+
+test_mem_host_no_access_Image_RW_Mapping  ... 
+ Test succeeded
+
+Test succeeded
+
+mem_host_no_access_image passed
+PASSED 9 of 9 tests.

@@ -1,0 +1,581 @@
+Reading SPIR-V files from default 'spirv_bin' path.
+In case you want to set other directory use '--spirv-binaries-path' argument.
+ Initializing random seed to 0.
+Requesting Default device based on command line for platform index 0 and device index 0
+Compute Device Name = Apple M1 (G13G B1), Compute Device Vendor = Apple, Compute Device Version = OpenCL 3.1 , CL C Version = OpenCL C 1.2 
+Device latest conformance version passed: v2026-03-25-00
+Supports single precision denormals: NO
+sizeof( void*) = 8  (host)
+sizeof( void*) = 8  (device)
+load_program_source...
+load_program_source passed
+load_multistring_source...
+load_multistring_source passed
+load_two_kernel_source...
+load_two_kernel_source passed
+load_null_terminated_source...
+load_null_terminated_source passed
+load_null_terminated_multi_line_source...
+load_null_terminated_multi_line_source passed
+load_discreet_length_source...
+load_discreet_length_source passed
+load_null_terminated_partial_multi_line_source...
+load_null_terminated_partial_multi_line_source passed
+get_program_info...
+get_program_info passed
+get_program_info_kernel_names...
+get_program_info_kernel_names passed
+get_linked_program_info_kernel_names...
+get_linked_program_info_kernel_names passed
+get_program_info_mult_devices...
+Can't partition device, test not supported
+get_program_info_mult_devices test not supported
+get_program_source...
+get_program_source passed
+get_program_build_info...
+Build log is 1 long.
+get_program_build_info passed
+kernel_name_size...
+kernel_name_size passed
+get_program_source_from_binary...
+get_program_source_from_binary passed
+large_compile...
+Testing large compiles...this might take awhile...
+   64...
+Performance Number 64 lines (in wall time in secs, lower is better): 0.006638
+   128...
+Performance Number 128 lines (in wall time in secs, lower is better): 0.011471
+   256...
+Performance Number 256 lines (in wall time in secs, lower is better): 0.02118
+   512...
+Performance Number 512 lines (in wall time in secs, lower is better): 0.044375
+   1024...
+Performance Number 1024 lines (in wall time in secs, lower is better): 0.09963
+   2048...
+Performance Number 2048 lines (in wall time in secs, lower is better): 0.257498
+   4096...
+Performance Number 4096 lines (in wall time in secs, lower is better): 0.727784
+large_compile passed
+multi_file_libraries...
+Testing multi-file libraries ...this might take awhile...
+   2...
+Buffers match, test passes.
+Performance Number 2 lines (in wall time in secs, lower is better): 0.007393
+   4...
+Buffers match, test passes.
+Performance Number 4 lines (in wall time in secs, lower is better): 0.007591
+   8...
+Buffers match, test passes.
+Performance Number 8 lines (in wall time in secs, lower is better): 0.012836
+   16...
+Buffers match, test passes.
+Performance Number 16 lines (in wall time in secs, lower is better): 0.023312
+   32...
+Buffers match, test passes.
+Performance Number 32 lines (in wall time in secs, lower is better): 0.04725
+   64...
+Buffers match, test passes.
+Performance Number 64 lines (in wall time in secs, lower is better): 0.106009
+   128...
+Buffers match, test passes.
+Performance Number 128 lines (in wall time in secs, lower is better): 0.274984
+   256...
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 0.827412
+multi_file_libraries passed
+multiple_embedded_headers...
+Testing multiple embedded headers ...this might take awhile...
+   2...
+Buffers match, test passes.
+Performance Number 2 lines (in wall time in secs, lower is better): 0.003464
+   4...
+Buffers match, test passes.
+Performance Number 4 lines (in wall time in secs, lower is better): 0.004129
+   8...
+Buffers match, test passes.
+Performance Number 8 lines (in wall time in secs, lower is better): 0.006528
+   16...
+Buffers match, test passes.
+Performance Number 16 lines (in wall time in secs, lower is better): 0.011564
+   32...
+Buffers match, test passes.
+Performance Number 32 lines (in wall time in secs, lower is better): 0.02202
+   64...
+Buffers match, test passes.
+Performance Number 64 lines (in wall time in secs, lower is better): 0.048316
+   128...
+Buffers match, test passes.
+Performance Number 128 lines (in wall time in secs, lower is better): 0.119381
+   256...
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 0.336769
+multiple_embedded_headers passed
+multiple_libraries...
+Testing multiple libraries ...this might take awhile...
+   2...
+level - 1, numLibraries - 1, numFilesInLib - 2
+Buffers match, test passes.
+Performance Number 2 lines (in wall time in secs, lower is better): 0.00255
+   8...
+level - 2, numLibraries - 2, numFilesInLib - 4
+Buffers match, test passes.
+Performance Number 8 lines (in wall time in secs, lower is better): 0.005141
+   32...
+level - 3, numLibraries - 4, numFilesInLib - 8
+Buffers match, test passes.
+Performance Number 32 lines (in wall time in secs, lower is better): 0.018939
+   128...
+level - 4, numLibraries - 8, numFilesInLib - 16
+Buffers match, test passes.
+Performance Number 128 lines (in wall time in secs, lower is better): 0.102915
+   256...
+level - 4, numLibraries - 8, numFilesInLib - 32
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 0.280063
+multiple_libraries passed
+multiple_files_multiple_libraries...
+Testing multiple files and multiple libraries ...this might take awhile...
+   8...
+level - 2, numLibraries - 1, numFilesInLib - 4
+Buffers match, test passes.
+Performance Number 8 lines (in wall time in secs, lower is better): 0.004882
+   32...
+level - 3, numLibraries - 2, numFilesInLib - 8
+Buffers match, test passes.
+Performance Number 32 lines (in wall time in secs, lower is better): 0.016847
+   128...
+level - 4, numLibraries - 4, numFilesInLib - 16
+Buffers match, test passes.
+Performance Number 128 lines (in wall time in secs, lower is better): 0.09333
+   256...
+level - 4, numLibraries - 4, numFilesInLib - 32
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 0.262942
+multiple_files_multiple_libraries passed
+multiple_files...
+Testing multiple files compilation and linking into a single executable ...this might take awhile...
+   8...
+Buffers match, test passes.
+Performance Number 8 lines (in wall time in secs, lower is better): 0.003967
+   32...
+Buffers match, test passes.
+Performance Number 32 lines (in wall time in secs, lower is better): 0.014847
+   128...
+Buffers match, test passes.
+Performance Number 128 lines (in wall time in secs, lower is better): 0.083483
+   256...
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 0.244215
+multiple_files passed
+simple_compile_only...
+Testing a simple compilation only...
+simple_compile_only passed
+simple_static_compile_only...
+Testing a simple static compilations only...
+Compiling a static variable...
+Compiling a static struct...
+Compiling a static function...
+simple_static_compile_only passed
+simple_extern_compile_only...
+Testing a simple extern compilations only...
+Compiling an extern kernel...
+Compiling an extern variable...
+Compiling an extern struct...
+Compiling an extern function...
+simple_extern_compile_only passed
+simple_compile_with_callback...
+Testing a simple compilation with callback...
+in the simple_compile_callback: program 0xbd87ce0 just completed compiling with 'Once upon a midnight dreary!'
+in the simple_compile_callback: program 0xbd87ce0 just completed compiling with '0xbd86878'
+in the simple_compile_callback: Successfully signaled compile_program_completion_event!
+simple_compile_with_callback passed
+simple_embedded_header_compile...
+Testing a simple embedded header compile only...
+simple_embedded_header_compile passed
+simple_link_only...
+Testing a simple linking only...
+simple_link_only passed
+link_error_returns_program...
+Testing clLinkProgram failure returns a valid program...
+Expected Link Failure Build Log:
+(file=input,line=0,column=0,index=0): Unresolved external reference to "__clang_ocl_kern_imp_CopyBuffer".
+
+link_error_returns_program passed
+two_file_regular_variable_access...
+Compiling and linking two program objects, where one tries to access regular variable from another...
+two_file_regular_variable_access passed
+two_file_regular_struct_access...
+Compiling and linking two program objects, where one tries to access regular struct from another...
+two_file_regular_struct_access passed
+two_file_regular_function_access...
+Compiling and linking two program objects, where one tries to access regular function from another...
+two_file_regular_function_access passed
+simple_embedded_header_link...
+Testing a simple embedded header link...
+simple_embedded_header_link passed
+simple_link_with_callback...
+Testing a simple linking with callback...
+in the simple_link_callback: program 0xbd87ce0 just completed linking with 'When I pondered weak and weary!'
+in the simple_link_callback: program 0xbd87ce0 just completed linking with '0xffff6c13b2f8'
+in the simple_link_callback: Successfully signaled link_program_completion_event event!
+simple_link_with_callback passed
+execute_after_simple_compile_and_link...
+Testing execution after a simple compile and link...
+Buffers match, test passes.
+execute_after_simple_compile_and_link passed
+execute_after_simple_compile_and_link_no_device_info...
+Testing execution after a simple compile and link with no device information provided...
+Buffers match, test passes.
+execute_after_simple_compile_and_link_no_device_info passed
+execute_after_simple_compile_and_link_with_defines...
+Testing execution after a simple compile and link with defines...
+Buffers match, test passes.
+execute_after_simple_compile_and_link_with_defines passed
+execute_after_serialize_reload_object...
+Testing execution after serialization and reloading of the object...
+Buffers match, test passes.
+execute_after_serialize_reload_object passed
+execute_after_serialize_reload_library...
+Testing execution after linking a binary with a simple library...
+Buffers match, test passes.
+Buffers match, test passes.
+execute_after_serialize_reload_library passed
+execute_after_simple_compile_and_link_with_callbacks...
+Testing execution after a simple compile and link with callbacks...
+in the program_compile_completion_callback: program 0xbd9eb50 just completed compiling with '0xffff6c0365b8'
+in the program_compile_completion_callback: Successfully signaled compile_program_completion_event event!
+in the program_link_completion_callback: program 0xbd62a10 just completed linking with '0xffff6c0365b8'
+in the program_link_completion_callback: Successfully signaled link_program_completion_event event!
+Buffers match, test passes.
+execute_after_simple_compile_and_link_with_callbacks passed
+simple_library_only...
+Testing creation of a simple library...
+simple_library_only passed
+simple_library_with_callback...
+Testing creation of a simple library with a callback...
+in the simple_link_callback: program 0xbd62a10 just completed linking with 'When I pondered weak and weary!'
+in the simple_link_callback: program 0xbd62a10 just completed linking with '0xbb33d68'
+in the simple_link_callback: Successfully signaled link_program_completion_event event!
+simple_library_with_callback passed
+simple_library_with_link...
+Testing creation and linking with a simple library...
+simple_library_with_link passed
+execute_after_simple_library_with_link...
+Testing execution after linking a binary with a simple library...
+Buffers match, test passes.
+Buffers match, test passes.
+execute_after_simple_library_with_link passed
+two_file_link...
+Testing two file compiling and linking...
+two_file_link passed
+execute_after_two_file_link...
+Testing two file compiling and linking and execution of two kernels afterwards ...
+Buffers match, test passes.
+Buffers match, test passes.
+execute_after_two_file_link passed
+execute_after_embedded_header_link...
+Testing execution after embedded header link...
+Buffers match, test passes.
+Buffers match, test passes.
+execute_after_embedded_header_link passed
+execute_after_included_header_link...
+Testing execution after included header link...
+Buffers match, test passes.
+Buffers match, test passes.
+execute_after_included_header_link passed
+program_binary_type...
+Testing querying of program binary type...
+Buffers match, test passes.
+Buffers match, test passes.
+program_binary_type passed
+compile_and_link_status_options_log...
+Testing Compile and Link Status, Options and Logging ...this might take awhile...
+   256...
+
+  -- still waiting for compile... (status is -3)
+   <-- program successfully compiled
+BUILD LOG: 
+BUILD OPTIONS: 
+
+  -- still waiting for library creation... (status is -3)
+   <-- library successfully created
+CREATE LIBRARY LOG: 
+CREATE LIBRARY OPTIONS: 
+
+  -- still waiting for program linking... (status is -3)
+   <-- program successfully linked
+BUILDING LOG: 
+BUILDING OPTIONS: 
+Buffers match, test passes.
+Performance Number 256 lines (in wall time in secs, lower is better): 3.09756
+compile_and_link_status_options_log passed
+multiple_build_program...
+multiple_build_program passed
+async_build...
+
+Testing program that should produce status 0
+ -- still waiting for callback...
+Program completion callback received build status 0
+Test passed.
+
+
+Testing program that should produce status -2
+ -- still waiting for callback...
+Program completion callback received build status -2
+Test passed.
+
+async_build passed
+options_build_optimizations...
+Testing optimization option '-cl-std=CL3.1 -cl-single-precision-constant'
+Testing optimization option '-cl-std=CL3.1 -cl-denorms-are-zero'
+Testing optimization option '-cl-std=CL3.1 -cl-opt-disable'
+Testing optimization option '-cl-std=CL3.1 -cl-mad-enable'
+Testing optimization option '-cl-std=CL3.1 -cl-no-signed-zeros'
+Testing optimization option '-cl-std=CL3.1 -cl-unsafe-math-optimizations'
+Testing optimization option '-cl-std=CL3.1 -cl-finite-math-only'
+Testing optimization option '-cl-std=CL3.1 -cl-fast-relaxed-math'
+Testing optimization option '-cl-std=CL3.1 -w'
+Testing optimization option '-cl-std=CL3.1 -Werror'
+Testing optimization option '-cl-std=CL3.1 -cl-uniform-work-group-size'
+Testing optimization option '-cl-std=CL3.1 -cl-no-subgroup-ifp'
+options_build_optimizations passed
+options_build_macro...
+options_build_macro passed
+options_build_macro_existence...
+options_build_macro_existence passed
+options_include_directory...
+options_include_directory passed
+options_denorm_cache...
+Device does not support denormalized single-precision floats; skipping test.
+options_denorm_cache passed
+options_uniform_work_group_size...
+options_uniform_work_group_size passed
+preprocessor_define_udef...
+preprocessor_define_udef passed
+preprocessor_include...
+preprocessor_include passed
+preprocessor_line_error...
+test_preprocessor_line_error may report spurious ERRORS in the conformance log.
+Build error detected at clBuildProgram.Build failed as expected with #error in source:
+Build log is: ------------
+input.cl:5:2: error: some error
+  124 | #error  some error
+      |  ^
+Error executing LLVM compilation action.
+
+Original source is: ------------
+__kernel void line_error_test(__global int *dstA)
+{
+ int tid = get_global_id(0);
+#line 124 "fictitious/file/name.c" 
+#error  some error
+ dstA[tid] = tid;
+
+}
+
+----------
+WARNING: Did not find file name from #line param in log output.
+Found line number from #line param in log output.
+test_preprocessor_line_error PASSED.
+preprocessor_line_error passed
+preprocessor_pragma...
+preprocessor_pragma passed
+opencl_c_version_macro...
+opencl_c_version_macro passed
+opencl_c_versions...
+  testing compilation based on CL_DEVICE_OPENCL_C_VERSION
+    successfully built program with build options '-cl-std=CL1.1'
+    successfully built program with build options '-cl-std=CL1.2'
+  testing compilation based on CL_DEVICE_OPENCL_C_ALL_VERSIONS
+    successfully built program with build options '-cl-std=CL3.1'
+    successfully built program with build options '-cl-std=CL3.0'
+    successfully built program with build options '-cl-std=CL1.2'
+    successfully built program with build options '-cl-std=CL1.1'
+    skipping OpenCL C 1.0, there is no -cl-std=CL1.0.
+  testing for OPENCL_C_VERSION required features
+  testing for OPENCL_C_VERSION required versions
+    found OpenCL C version '1.0'
+    found OpenCL C version '1.1'
+    found OpenCL C version '1.2'
+opencl_c_versions passed
+image_macro...
+CL_DEVICE_IMAGE_SUPPORT is set, __IMAGE_SUPPORT__ macro is set 
+image_macro passed
+compiler_defines_for_extensions...
+Device reports the following extensions:
+           cl_khr_byte_addressable_store -- Supported
+             cl_khr_create_command_queue -- Supported
+                    cl_khr_expect_assume -- Supported
+                 cl_khr_extended_bit_ops -- Supported
+              cl_khr_extended_versioning -- Supported
+        cl_khr_global_int32_base_atomics -- Supported
+    cl_khr_global_int32_extended_atomics -- Supported
+                       cl_khr_il_program -- Supported
+         cl_khr_local_int32_base_atomics -- Supported
+     cl_khr_local_int32_extended_atomics -- Supported
+              cl_khr_integer_dot_product -- Supported
+ cl_khr_spirv_no_integer_wrap_decoration -- Supported
+                    cl_khr_spirv_queries -- Supported
+        cl_khr_suggested_local_work_size -- Supported
+         cl_ext_immutable_memory_objects -- Supported
+               cl_khr_spirv_linkonce_odr -- Supported
+                             cl_khr_fp16 -- Supported
+                  cl_khr_3d_image_writes -- Supported
+                     cl_khr_depth_images -- Supported
+         cl_ext_image_unorm_int_2_101010 -- Supported
+                   cl_khr_priority_hints -- Supported
+                      cl_khr_device_uuid -- Supported
+          cl_khr_subgroup_extended_types -- Supported
+                  cl_khr_subgroup_ballot -- Supported
+        cl_khr_subgroup_clustered_reduce -- Supported
+  cl_khr_subgroup_non_uniform_arithmetic -- Supported
+        cl_khr_subgroup_non_uniform_vote -- Supported
+                  cl_khr_subgroup_rotate -- Supported
+                 cl_khr_subgroup_shuffle -- Supported
+        cl_khr_subgroup_shuffle_relative -- Supported
+         cl_ext_immutable_memory_objects -- Not Supported
+         cl_ext_image_unorm_int_2_101010 -- Not Supported
+
+Compiler reported the following extensions defined in the OpenCL C kernel environment:
+	cl_khr_byte_addressable_store
+	cl_khr_expect_assume
+	cl_khr_extended_bit_ops
+	cl_khr_global_int32_base_atomics
+	cl_khr_global_int32_extended_atomics
+	cl_khr_local_int32_base_atomics
+	cl_khr_local_int32_extended_atomics
+	cl_khr_integer_dot_product
+	cl_khr_fp16
+	cl_khr_3d_image_writes
+	cl_khr_depth_images
+	cl_khr_subgroup_extended_types
+	cl_khr_subgroup_ballot
+	cl_khr_subgroup_clustered_reduce
+	cl_khr_subgroup_non_uniform_arithmetic
+	cl_khr_subgroup_non_uniform_vote
+	cl_khr_subgroup_rotate
+	cl_khr_subgroup_shuffle
+	cl_khr_subgroup_shuffle_relative
+
+The following non-KHR extensions are supported but do not add a preprocessor symbol to OpenCL C.
+	cl_ext_immutable_memory_objects
+	cl_ext_image_unorm_int_2_101010
+
+compiler_defines_for_extensions passed
+pragma_unroll...
+pragma_unroll passed
+unload_valid...
+unload_valid passed
+unload_repeated...
+unload_repeated passed
+unload_compile_unload_link...
+unload_compile_unload_link passed
+unload_build_unload_create_kernel...
+unload_build_unload_create_kernel passed
+unload_link_different...
+unload_link_different passed
+unload_build_threaded...
+unload_build_threaded passed
+unload_build_info...
+unload_build_info passed
+unload_program_binaries...
+unload_program_binaries passed
+features_macro...
+
+__opencl_c_program_scope_global_variables ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_program_scope_global_variables - passed
+
+__opencl_c_3d_image_writes ...
+Feature status: API - supported, compiler - supported
+__opencl_c_3d_image_writes - passed
+
+__opencl_c_atomic_order_acq_rel ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_atomic_order_acq_rel - passed
+
+__opencl_c_atomic_order_seq_cst ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_atomic_order_seq_cst - passed
+
+__opencl_c_atomic_scope_device ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_atomic_scope_device - passed
+
+__opencl_c_atomic_scope_all_devices ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_atomic_scope_all_devices - passed
+
+__opencl_c_device_enqueue ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_device_enqueue - passed
+
+__opencl_c_generic_address_space ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_generic_address_space - passed
+
+__opencl_c_pipes ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_pipes - passed
+
+__opencl_c_read_write_images ...
+Feature status: API - supported, compiler - supported
+__opencl_c_read_write_images - passed
+
+__opencl_c_subgroups ...
+Feature status: API - supported, compiler - supported
+__opencl_c_subgroups - passed
+
+__opencl_c_work_group_collective_functions ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_work_group_collective_functions - passed
+
+__opencl_c_images ...
+Feature status: API - supported, compiler - supported
+__opencl_c_images - passed
+
+__opencl_c_fp64 ...
+Feature status: API - not supported, compiler - not supported
+__opencl_c_fp64 - passed
+
+__opencl_c_int64 ...
+Feature status: API - supported, compiler - supported
+__opencl_c_int64 - passed
+
+__opencl_c_integer_dot_product_input_4x8bit ...
+Feature status: API - supported, compiler - supported
+__opencl_c_integer_dot_product_input_4x8bit - passed
+
+__opencl_c_integer_dot_product_input_4x8bit_packed ...
+Feature status: API - supported, compiler - supported
+__opencl_c_integer_dot_product_input_4x8bit_packed - passed
+
+__opencl_c_ext_image_unorm_int_2_101010 ...
+Feature status: API - supported, compiler - supported
+__opencl_c_ext_image_unorm_int_2_101010 - passed
+
+Comparison list of features: CL_DEVICE_OPENCL_C_FEATURES vs API/compiler queries.
+Supported features based on CL_DEVICE_OPENCL_C_FEATURES API query:
+__opencl_c_3d_image_writes
+__opencl_c_ext_image_unorm_int_2_101010
+__opencl_c_images
+__opencl_c_int64
+__opencl_c_integer_dot_product_input_4x8bit
+__opencl_c_integer_dot_product_input_4x8bit_packed
+__opencl_c_read_write_images
+__opencl_c_subgroups
+
+Supported features based on queries to API/compiler :
+__opencl_c_3d_image_writes
+__opencl_c_ext_image_unorm_int_2_101010
+__opencl_c_images
+__opencl_c_int64
+__opencl_c_integer_dot_product_input_4x8bit
+__opencl_c_integer_dot_product_input_4x8bit_packed
+__opencl_c_read_write_images
+__opencl_c_subgroups
+Comparison list of features - passed
+features_macro passed
+features_macro_coupling...
+features_macro_coupling passed
+PASSED 75 of 75 tests.
