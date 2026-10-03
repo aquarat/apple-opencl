@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="196" viewBox="0 0 760 196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-label="darktable export of a 24 MP raw (seconds, lower is better)">
+<title>darktable export of a 24 MP raw (seconds, lower is better)</title>
+<text x="0" y="20" font-size="16" font-weight="600" fill="#1f2328">darktable export of a 24 MP raw (seconds, lower is better)</text>
+<text x="0" y="40" font-size="12" fill="#59636e">darktable 5.6.1 default pipeline · Mac mini M1 · GPU output within 2/255 of the CPU export</text>
+<line x1="312.0" y1="58" x2="312.0" y2="166" stroke="#59636e" stroke-width="1.5"/>
+<text x="312.0" y="182" font-size="11" text-anchor="middle" fill="#59636e">0 s</text>
+<line x1="440.0" y1="58" x2="440.0" y2="166" stroke="#d1d9e0" stroke-width="1"/>
+<text x="440.0" y="182" font-size="11" text-anchor="middle" fill="#59636e">0.5 s</text>
+<line x1="568.0" y1="58" x2="568.0" y2="166" stroke="#d1d9e0" stroke-width="1"/>
+<text x="568.0" y="182" font-size="11" text-anchor="middle" fill="#59636e">1 s</text>
+<line x1="696.0" y1="58" x2="696.0" y2="166" stroke="#d1d9e0" stroke-width="1"/>
+<text x="696.0" y="182" font-size="11" text-anchor="middle" fill="#59636e">1.5 s</text>
+<text x="0" y="85" font-size="13" fill="#1f2328">CPU, 8 threads</text>
+<path d="M312.0,74.0 H669.0 Q673.0,74.0 673.0,78.0 V84.0 Q673.0,88.0 669.0,88.0 H312.0 Z" fill="#8c959f"/>
+<text x="679.0" y="85.0" font-size="12" font-weight="600" fill="#1f2328">1.41 s</text>
+<text x="0" y="119" font-size="13" fill="#1f2328">GPU, stock driver</text>
+<text x="320.0" y="119.0" font-size="12" font-style="italic" fill="#59636e">can't use the GPU: kernels fail to build</text>
+<text x="0" y="153" font-size="13" fill="#1f2328">GPU, this branch</text>
+<path d="M312.0,142.0 H474.4 Q478.4,142.0 478.4,146.0 V152.0 Q478.4,156.0 474.4,156.0 H312.0 Z" fill="#2a78d6"/>
+<text x="484.4" y="153.0" font-size="12" font-weight="600" fill="#1f2328">0.65 s</text>
+</svg>

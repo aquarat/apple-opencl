@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="298" viewBox="0 0 760 298" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-label="Speed-up over stock Mesa (log scale)">
+<title>Speed-up over stock Mesa (log scale)</title>
+<text x="0" y="20" font-size="16" font-weight="600" fill="#e6edf3">Speed-up over stock Mesa (log scale)</text>
+<text x="0" y="40" font-size="12" fill="#9198a1">Mac mini M1, 8-core GPU · microbenchmarks in bench/ · vs Fedora Asahi's Mesa 26.1.8</text>
+<line x1="362.2" y1="58" x2="362.2" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="362.2" y="284" font-size="11" text-anchor="middle" fill="#9198a1">0.5×</text>
+<line x1="412.5" y1="58" x2="412.5" y2="268" stroke="#9198a1" stroke-width="1.5"/>
+<text x="412.5" y="284" font-size="11" text-anchor="middle" fill="#9198a1">1×</text>
+<line x1="462.7" y1="58" x2="462.7" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="462.7" y="284" font-size="11" text-anchor="middle" fill="#9198a1">2×</text>
+<line x1="529.1" y1="58" x2="529.1" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="529.1" y="284" font-size="11" text-anchor="middle" fill="#9198a1">5×</text>
+<line x1="579.4" y1="58" x2="579.4" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="579.4" y="284" font-size="11" text-anchor="middle" fill="#9198a1">10×</text>
+<line x1="629.6" y1="58" x2="629.6" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="629.6" y="284" font-size="11" text-anchor="middle" fill="#9198a1">20×</text>
+<line x1="696.0" y1="58" x2="696.0" y2="268" stroke="#3d444d" stroke-width="1"/>
+<text x="696.0" y="284" font-size="11" text-anchor="middle" fill="#9198a1">50×</text>
+<text x="0" y="79" font-size="13" fill="#e6edf3">Read a GPU-written buffer back</text>
+<text x="0" y="93" font-size="11" fill="#9198a1">0.24 to 9.3 GB/s</text>
+<path d="M412.5,74.0 H673.5 Q677.5,74.0 677.5,78.0 V84.0 Q677.5,88.0 673.5,88.0 H412.5 Z" fill="#3987e5"/>
+<text x="683.5" y="85.0" font-size="12" font-weight="600" fill="#e6edf3">39×</text>
+<text x="0" y="113" font-size="13" fill="#e6edf3">64 independent tiny kernels</text>
+<text x="0" y="127" font-size="11" fill="#9198a1">37 to 1.6 ms</text>
+<path d="M412.5,108.0 H636.1 Q640.1,108.0 640.1,112.0 V118.0 Q640.1,122.0 636.1,122.0 H412.5 Z" fill="#3987e5"/>
+<text x="646.1" y="119.0" font-size="12" font-weight="600" fill="#e6edf3">23×</text>
+<text x="0" y="147" font-size="13" fill="#e6edf3">Read back a 371 MB image</text>
+<text x="0" y="161" font-size="11" fill="#9198a1">1.6 s to 76 ms</text>
+<path d="M412.5,142.0 H630.3 Q634.3,142.0 634.3,146.0 V152.0 Q634.3,156.0 630.3,156.0 H412.5 Z" fill="#3987e5"/>
+<text x="640.3" y="153.0" font-size="12" font-weight="600" fill="#e6edf3">21×</text>
+<text x="0" y="181" font-size="13" fill="#e6edf3">Chain of dependent tiny kernels</text>
+<text x="0" y="195" font-size="11" fill="#9198a1">38 to 4.2 µs per kernel</text>
+<path d="M412.5,176.0 H568.1 Q572.1,176.0 572.1,180.0 V186.0 Q572.1,190.0 568.1,190.0 H412.5 Z" fill="#3987e5"/>
+<text x="578.1" y="187.0" font-size="12" font-weight="600" fill="#e6edf3">9.0×</text>
+<text x="0" y="215" font-size="13" fill="#e6edf3">Counted loop with a small body</text>
+<text x="0" y="229" font-size="11" fill="#9198a1">0.80 to 2.1 TFLOPS</text>
+<path d="M412.5,210.0 H478.6 Q482.6,210.0 482.6,214.0 V220.0 Q482.6,224.0 478.6,224.0 H412.5 Z" fill="#3987e5"/>
+<text x="488.6" y="221.0" font-size="12" font-weight="600" fill="#e6edf3">2.6×</text>
+<text x="0" y="249" font-size="13" fill="#e6edf3">Upload to a buffer the host reads (trade-off)</text>
+<text x="0" y="263" font-size="11" fill="#9198a1">24.6 to 11.3 GB/s</text>
+<path d="M412.5,244.0 H360.1 Q356.1,244.0 356.1,248.0 V254.0 Q356.1,258.0 360.1,258.0 H412.5 Z" fill="#e66767"/>
+<text x="350.1" y="255.0" font-size="12" font-weight="600" text-anchor="end" fill="#e6edf3">0.46×</text>
+</svg>

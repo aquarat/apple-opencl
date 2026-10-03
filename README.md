@@ -14,6 +14,18 @@ upstream Mesa; anyone is welcome to take it there.
 
 ## What changed (Mac mini M1, 8-core GPU)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/speedups-dark.svg">
+  <img alt="Speed-up over stock Mesa, log scale: buffer readback 39x, 64 independent tiny kernels 23x, image readback 21x, dependent tiny kernels 9x, small counted loop 2.6x; uploads to buffers the host reads are 0.46x (the trade-off)." src="docs/speedups-light.svg" width="760">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/darktable-dark.svg">
+  <img alt="darktable export of a 24 MP raw: CPU 1.41 s; GPU on the stock driver unusable because kernels fail to build; GPU on this branch 0.65 s (median of three runs)." src="docs/darktable-light.svg" width="760">
+</picture>
+
+The same numbers (charts drawn by `docs/charts.py`):
+
 | | before | after |
 |---|---:|---:|
 | chain of small kernels that each write a buffer | 38 us/kernel | 4.2 us/kernel |
@@ -83,6 +95,7 @@ when comparing with and without one, disable the cache on both sides
 | `cts-run.sh`, `cts-compare.sh` | run Khronos OpenCL CTS suites, compare failure sets |
 | `scrub-logs.sh` | strip host name and home paths from result logs |
 | `results/`, `cts-results/` | raw outputs behind the numbers |
+| `docs/charts.py` | draws the README charts (plain SVG, light and dark) |
 | `workloads/darktable/` | the darktable export used as a real workload |
 
 `make` builds `bench/` and `tests/` against the system ICD loader. The CTS
